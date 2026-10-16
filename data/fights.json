@@ -1,1 +1,11 @@
-{"updated": null, "sources": {}, "fights": []}
+{
+ "updated": "2026-10-16T23:21:15+00:00",
+ "sources": {
+  "espn": {
+   "ok": false,
+   "count": 0,
+   "at": "2026-10-16T23:21:15+00:00"
+  }
+ },
+ "fights": []
+}
