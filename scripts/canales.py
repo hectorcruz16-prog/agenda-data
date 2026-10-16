@@ -18,8 +18,51 @@ OUT = os.path.join(os.path.dirname(__file__), "..", "data", "rights.json")
 WIKI = "https://en.wikipedia.org/w/api.php"
 # Wikimedia pide un User-Agent con forma de contacto; sin eso y con prisa da 429 (1ra corrida, 16-oct)
 UA = {"User-Agent": "AgendaDeportiva/1.0 (https://github.com/hectorcruz16-prog/agenda-data; robot semanal de derechos de TV) python-requests"}
-MODEL = os.environ.get("GROQ_MODEL", "llama-3.3-70b-versatile")
-FALLBACK_MODEL = "llama-3.1-8b-instant"
+
+GROQ_MODELS = [os.environ.get("GROQ_MODEL"), "openai/gpt-oss-120b", "openai/gpt-oss-20b", "llama-3.3-70b-versatile", "qwen/qwen3.8-27b", "llama-3.1-8b-instant"]
+_ALIVE = None
+def groq_models(key):
+    """Groq retira modelos (16-oct-2026: llama-3.3-70b daba 404). Se pregunta cuáles hay y se usan en orden de preferencia."""
+    global _ALIVE
+    if _ALIVE is None:
+        try:
+            r = requests.get("https://api.groq.com/openai/v1/models", headers={"Authorization": "Bearer " + key}, timeout=20)
+            _ALIVE = {m["id"] for m in r.json().get("data", [])}
+        except Exception:
+            _ALIVE = set()
+    pref = [m for m in GROQ_MODELS if m]
+    ok = [m for m in pref if not _ALIVE or m in _ALIVE]
+    extra = sorted(m for m in _ALIVE if re.search(r"gpt-oss|llama|qwen|kimi|deepseek", m) and not re.search(r"guard|whisper|tts|prompt", m))
+    return list(dict.fromkeys(ok + extra)) or pref
+
+def groq_json(prompt, key_name):
+    """Pide JSON a Groq. Si un modelo no existe o no acepta modo JSON, prueba el siguiente."""
+    key = os.environ.get("GROQ_API_KEY")
+    if not key:
+        raise RuntimeError("falta GROQ_API_KEY")
+    errs = []
+    for model in groq_models(key):
+        for fmt in (True, False):
+            body = {"model": model, "temperature": 0, "messages": [{"role": "user", "content": prompt}]}
+            if fmt:
+                body["response_format"] = {"type": "json_object"}
+            for i in range(3):
+                r = requests.post("https://api.groq.com/openai/v1/chat/completions", json=body, headers={"Authorization": "Bearer " + key}, timeout=120)
+                if r.status_code == 429:
+                    time.sleep(20 * (i + 1)); continue
+                break
+            if r.status_code >= 400:
+                errs.append(f"{model.split('/')[-1]} {r.status_code}")
+                if r.status_code == 400 and fmt:
+                    continue  # sin modo JSON
+                break
+            txt = r.json()["choices"][0]["message"]["content"] or ""
+            m = re.search(r"\{.*\}", txt, re.S)
+            try:
+                return json.loads(m.group(0) if m else txt).get(key_name, [])
+            except Exception:
+                errs.append(f"{model.split('/')[-1]} JSON malo"); break
+    raise RuntimeError("Groq: " + ", ".join(errs[-4:]))
 
 # id = el slug de ESPN que usa la app. page = página de Wikipedia; sec = regex de las secciones a leer (None = toda la página).
 # Páginas confirmadas el 16-oct-2026.
@@ -134,20 +177,7 @@ TEXT:
 {text}"""
 
 def ask_groq(name, text):
-    key = os.environ.get("GROQ_API_KEY")
-    if not key:
-        raise RuntimeError("falta GROQ_API_KEY")
-    for model in (MODEL, FALLBACK_MODEL):
-        body = {"model": model, "temperature": 0, "response_format": {"type": "json_object"},
-                "messages": [{"role": "user", "content": PROMPT.replace("{name}", name).replace("{text}", text[:15000])}]}
-        for i in range(3):
-            r = requests.post("https://api.groq.com/openai/v1/chat/completions", json=body, headers={"Authorization": "Bearer " + key}, timeout=120)
-            if r.status_code == 429:
-                time.sleep(25 * (i + 1)); continue
-            if r.status_code >= 400:
-                break
-            return json.loads(r.json()["choices"][0]["message"]["content"]).get("rights", [])
-    raise RuntimeError("Groq no respondió (límite o error)")
+    return groq_json(PROMPT.replace("{name}", name).replace("{text}", text[:15000]), "rights")
 
 def validate(rows, text):
     """Solo países conocidos; cada canal tiene que aparecer en el texto de Wikipedia (así la IA no inventa)."""

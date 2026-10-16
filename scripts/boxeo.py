@@ -18,10 +18,57 @@ import requests
 
 OUT = os.path.join(os.path.dirname(__file__), "..", "data", "fights.json")
 ESPN_URL = "https://www.espn.com/boxing/story/_/id/12508267/boxing-schedule"
+# La página web le contesta a GitHub con una verificación de robots (HTTP 202, 2 KB; 16-oct-2026).
+# La API de noticias de ESPN trae la MISMA nota en JSON (campo headlines[0].story) y no tiene esa verificación.
+ESPN_NEWS = "https://now.core.api.espn.com/v1/sports/news/12508267"
+GROQ_MODELS = [os.environ.get("GROQ_MODEL"), "openai/gpt-oss-120b", "openai/gpt-oss-20b", "llama-3.3-70b-versatile", "qwen/qwen3.8-27b", "llama-3.1-8b-instant"]
+_ALIVE = None
+def groq_models(key):
+    """Groq retira modelos (16-oct-2026: llama-3.3-70b daba 404). Se pregunta cuáles hay y se usan en orden de preferencia."""
+    global _ALIVE
+    if _ALIVE is None:
+        try:
+            r = requests.get("https://api.groq.com/openai/v1/models", headers={"Authorization": "Bearer " + key}, timeout=20)
+            _ALIVE = {m["id"] for m in r.json().get("data", [])}
+        except Exception:
+            _ALIVE = set()
+    pref = [m for m in GROQ_MODELS if m]
+    ok = [m for m in pref if not _ALIVE or m in _ALIVE]
+    extra = sorted(m for m in _ALIVE if re.search(r"gpt-oss|llama|qwen|kimi|deepseek", m) and not re.search(r"guard|whisper|tts|prompt", m))
+    return list(dict.fromkeys(ok + extra)) or pref
+
+def groq_json(prompt, key_name):
+    """Pide JSON a Groq. Si un modelo no existe o no acepta modo JSON, prueba el siguiente."""
+    key = os.environ.get("GROQ_API_KEY")
+    if not key:
+        raise RuntimeError("falta GROQ_API_KEY")
+    errs = []
+    for model in groq_models(key):
+        for fmt in (True, False):
+            body = {"model": model, "temperature": 0, "messages": [{"role": "user", "content": prompt}]}
+            if fmt:
+                body["response_format"] = {"type": "json_object"}
+            for i in range(3):
+                r = requests.post("https://api.groq.com/openai/v1/chat/completions", json=body, headers={"Authorization": "Bearer " + key}, timeout=120)
+                if r.status_code == 429:
+                    time.sleep(20 * (i + 1)); continue
+                break
+            if r.status_code >= 400:
+                errs.append(f"{model.split('/')[-1]} {r.status_code}")
+                if r.status_code == 400 and fmt:
+                    continue  # sin modo JSON
+                break
+            txt = r.json()["choices"][0]["message"]["content"] or ""
+            m = re.search(r"\{.*\}", txt, re.S)
+            try:
+                return json.loads(m.group(0) if m else txt).get(key_name, [])
+            except Exception:
+                errs.append(f"{model.split('/')[-1]} JSON malo"); break
+    raise RuntimeError("Groq: " + ", ".join(errs[-4:]))
+
 # Con un User-Agent de robot ESPN devolvió una página sin el calendario (1ra corrida, 16-oct): se pide como navegador normal.
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36",
       "Accept": "text/html,application/xhtml+xml", "Accept-Language": "en-US,en;q=0.9"}
-MODEL = os.environ.get("GROQ_MODEL", "llama-3.3-70b-versatile")
 PR = timezone(timedelta(hours=-4))
 MONTHS = {"jan": 1, "feb": 2, "mar": 3, "apr": 4, "may": 5, "jun": 6, "jul": 7, "aug": 8, "sep": 9, "oct": 10, "nov": 11, "dec": 12}
 # nombres que mueven la aguja (suben la importancia). Agregar a gusto.
@@ -92,23 +139,12 @@ PAGE TEXT:
 {text}"""
 
 def ask_groq(text, today, until):
-    key = os.environ.get("GROQ_API_KEY")
-    if not key:
-        raise RuntimeError("falta GROQ_API_KEY")
-    body = {"model": MODEL, "temperature": 0, "response_format": {"type": "json_object"},
-            "messages": [{"role": "user", "content": GROQ_PROMPT.replace("{today}", today).replace("{until}", until).replace("{text}", text[:20000])}]}
-    for i in range(3):
-        r = requests.post("https://api.groq.com/openai/v1/chat/completions", json=body, headers={"Authorization": "Bearer " + key}, timeout=90)
-        if r.status_code == 429:
-            time.sleep(20 * (i + 1)); continue
-        r.raise_for_status()
-        fs = json.loads(r.json()["choices"][0]["message"]["content"]).get("fights", [])
-        for f in fs:
-            f["timeValid"] = False; f["source"] = "ESPN+IA"
-            if re.match(r"^\d{4}-\d{2}-\d{2}$", str(f.get("date", ""))):
-                f["date"] += "T00:00:00-04:00"
-        return fs
-    raise RuntimeError("Groq 429 (límite) varias veces")
+    fs = groq_json(GROQ_PROMPT.replace("{today}", today).replace("{until}", until).replace("{text}", text[:20000]), "fights")
+    for f in fs:
+        f["timeValid"] = False; f["source"] = "ESPN+IA"
+        if re.match(r"^\d{4}-\d{2}-\d{2}$", str(f.get("date", ""))):
+            f["date"] += "T00:00:00-04:00"
+    return fs
 
 def valid(f, now):
     try:
@@ -150,7 +186,14 @@ def main(demo=False):
         if demo:
             page, code = DEMO_HTML, 200
         else:
-            r = requests.get(ESPN_URL, headers=UA, timeout=30); page, code = r.text, r.status_code
+            page, code = "", 0
+            try:
+                r = requests.get(ESPN_NEWS, headers={**UA, "Accept": "application/json"}, timeout=30); code = r.status_code
+                page = r.json()["headlines"][0]["story"]
+            except Exception:
+                page = ""
+            if "Full schedule" not in page:  # respaldo: la página web
+                r = requests.get(ESPN_URL, headers=UA, timeout=30); page, code = r.text, r.status_code
         raw = parse_espn(page, now)
         ok = [v for v in (valid(f, now) for f in raw) if v]
         # diagnóstico: si sale 0, aquí se ve por qué (código HTTP, tamaño, si vino el calendario)
