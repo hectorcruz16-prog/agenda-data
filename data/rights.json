@@ -1,65 +1,65 @@
 {
- "updated": "2026-10-16T23:20:21+00:00",
+ "updated": "2026-10-16T23:43:55+00:00",
  "status": {
   "esp.1": {
    "ok": false,
-   "error": "falta GROQ_API_KEY"
+   "error": "Groq no respondió (límite o error)"
   },
   "eng.1": {
    "ok": false,
-   "error": "falta GROQ_API_KEY"
+   "error": "Groq no respondió (límite o error)"
   },
   "uefa.champions": {
    "ok": false,
-   "error": "falta GROQ_API_KEY"
+   "error": "Groq no respondió (límite o error)"
   },
   "ita.1": {
    "ok": false,
-   "error": "falta GROQ_API_KEY"
+   "error": "Groq no respondió (límite o error)"
   },
   "ger.1": {
    "ok": false,
-   "error": "falta GROQ_API_KEY"
+   "error": "Groq no respondió (límite o error)"
   },
   "fra.1": {
    "ok": false,
-   "error": "falta GROQ_API_KEY"
+   "error": "Groq no respondió (límite o error)"
   },
   "mex.1": {
    "ok": false,
-   "error": "falta GROQ_API_KEY"
+   "error": "Groq no respondió (límite o error)"
   },
   "usa.1": {
    "ok": false,
-   "error": "falta GROQ_API_KEY"
+   "error": "Groq no respondió (límite o error)"
   },
   "conmebol.libertadores": {
    "ok": false,
-   "error": "falta GROQ_API_KEY"
+   "error": "Groq no respondió (límite o error)"
   },
   "f1": {
    "ok": false,
-   "error": "falta GROQ_API_KEY"
+   "error": "Groq no respondió (límite o error)"
   },
   "mlb": {
    "ok": false,
-   "error": "falta GROQ_API_KEY"
+   "error": "Groq no respondió (límite o error)"
   },
   "nhl": {
    "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=parse&page=NHL+on+television&section=2&prop=text&format=json&formatversion=2&redirects=1"
+   "error": "Groq no respondió (límite o error)"
   },
   "nba": {
    "ok": false,
-   "error": "429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=parse&page=NBA+on+television&prop=sections&format=json&formatversion=2&redirects=1"
+   "error": "Groq no respondió (límite o error)"
   },
   "nfl": {
    "ok": false,
-   "error": "falta GROQ_API_KEY"
+   "error": "Groq no respondió (límite o error)"
   },
   "ufc": {
    "ok": false,
-   "error": "falta GROQ_API_KEY"
+   "error": "Groq no respondió (límite o error)"
   }
  },
  "leagues": {}
