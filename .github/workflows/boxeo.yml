@@ -1,0 +1,28 @@
+name: Carteleras de boxeo
+on:
+  schedule:
+    - cron: "17 10,22 * * *"
+  workflow_dispatch: {}
+permissions:
+  contents: write
+concurrency: boxeo
+jobs:
+  boxeo:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install requests==2.32.3
+      - run: python scripts/boxeo.py
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+      - name: Guardar si cambió
+        run: |
+          git config user.name "agenda-robot"
+          git config user.email "agenda-robot@users.noreply.github.com"
+          git add data/fights.json
+          if ! git diff --cached --quiet; then
+            git commit -m "boxeo $(date -u +%Y-%m-%d)"
+            git pull --rebase -q origin main || true
+            git push
+          fi
