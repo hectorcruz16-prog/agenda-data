@@ -1,1 +1,66 @@
-{"updated": null, "status": {}, "leagues": {}}
+{
+ "updated": "2026-10-16T23:20:21+00:00",
+ "status": {
+  "esp.1": {
+   "ok": false,
+   "error": "falta GROQ_API_KEY"
+  },
+  "eng.1": {
+   "ok": false,
+   "error": "falta GROQ_API_KEY"
+  },
+  "uefa.champions": {
+   "ok": false,
+   "error": "falta GROQ_API_KEY"
+  },
+  "ita.1": {
+   "ok": false,
+   "error": "falta GROQ_API_KEY"
+  },
+  "ger.1": {
+   "ok": false,
+   "error": "falta GROQ_API_KEY"
+  },
+  "fra.1": {
+   "ok": false,
+   "error": "falta GROQ_API_KEY"
+  },
+  "mex.1": {
+   "ok": false,
+   "error": "falta GROQ_API_KEY"
+  },
+  "usa.1": {
+   "ok": false,
+   "error": "falta GROQ_API_KEY"
+  },
+  "conmebol.libertadores": {
+   "ok": false,
+   "error": "falta GROQ_API_KEY"
+  },
+  "f1": {
+   "ok": false,
+   "error": "falta GROQ_API_KEY"
+  },
+  "mlb": {
+   "ok": false,
+   "error": "falta GROQ_API_KEY"
+  },
+  "nhl": {
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=parse&page=NHL+on+television&section=2&prop=text&format=json&formatversion=2&redirects=1"
+  },
+  "nba": {
+   "ok": false,
+   "error": "429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=parse&page=NBA+on+television&prop=sections&format=json&formatversion=2&redirects=1"
+  },
+  "nfl": {
+   "ok": false,
+   "error": "falta GROQ_API_KEY"
+  },
+  "ufc": {
+   "ok": false,
+   "error": "falta GROQ_API_KEY"
+  }
+ },
+ "leagues": {}
+}
