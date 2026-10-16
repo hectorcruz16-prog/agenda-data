@@ -16,7 +16,8 @@ import requests
 
 OUT = os.path.join(os.path.dirname(__file__), "..", "data", "rights.json")
 WIKI = "https://en.wikipedia.org/w/api.php"
-UA = {"User-Agent": "AgendaDeportiva/1.0 (robot de GitHub; datos de derechos de TV)"}
+# Wikimedia pide un User-Agent con forma de contacto; sin eso y con prisa da 429 (1ra corrida, 16-oct)
+UA = {"User-Agent": "AgendaDeportiva/1.0 (https://github.com/hectorcruz16-prog/agenda-data; robot semanal de derechos de TV) python-requests"}
 MODEL = os.environ.get("GROQ_MODEL", "llama-3.3-70b-versatile")
 FALLBACK_MODEL = "llama-3.1-8b-instant"
 
@@ -65,9 +66,15 @@ def code_of(t):
     return LOWER.get(t) or REGIONS.get(t)
 
 def wiki(params):
-    r = requests.get(WIKI, params={**params, "format": "json", "formatversion": 2, "redirects": 1}, headers=UA, timeout=30)
-    r.raise_for_status()
-    return r.json()
+    """Una llamada a la vez, con pausa, y si Wikipedia dice 429 (muy rápido) se espera y se reintenta."""
+    for i in range(5):
+        time.sleep(1.5)
+        r = requests.get(WIKI, params={**params, "format": "json", "formatversion": 2, "redirects": 1, "maxlag": 5}, headers=UA, timeout=30)
+        if r.status_code == 429 or "maxlag" in r.text[:200]:
+            time.sleep(int(r.headers.get("Retry-After", "0") or 0) or 10 * (i + 1)); continue
+        r.raise_for_status()
+        return r.json()
+    raise RuntimeError("Wikipedia 429 (muy rápido) varias veces")
 
 def html_to_text(h):
     """HTML de Wikipedia → texto compacto: tablas como filas 'celda | celda', listas con '- '."""

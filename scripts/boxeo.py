@@ -18,7 +18,9 @@ import requests
 
 OUT = os.path.join(os.path.dirname(__file__), "..", "data", "fights.json")
 ESPN_URL = "https://www.espn.com/boxing/story/_/id/12508267/boxing-schedule"
-UA = {"User-Agent": "Mozilla/5.0 (AgendaDeportiva robot; +https://github.com)", "Accept-Language": "en-US,en;q=0.9"}
+# Con un User-Agent de robot ESPN devolvió una página sin el calendario (1ra corrida, 16-oct): se pide como navegador normal.
+UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36",
+      "Accept": "text/html,application/xhtml+xml", "Accept-Language": "en-US,en;q=0.9"}
 MODEL = os.environ.get("GROQ_MODEL", "llama-3.3-70b-versatile")
 PR = timezone(timedelta(hours=-4))
 MONTHS = {"jan": 1, "feb": 2, "mar": 3, "apr": 4, "may": 5, "jun": 6, "jul": 7, "aug": 8, "sep": 9, "oct": 10, "nov": 11, "dec": 12}
@@ -145,10 +147,15 @@ def main(demo=False):
     status, found = {}, []
     page = ""
     try:
-        page = DEMO_HTML if demo else requests.get(ESPN_URL, headers=UA, timeout=30).text
+        if demo:
+            page, code = DEMO_HTML, 200
+        else:
+            r = requests.get(ESPN_URL, headers=UA, timeout=30); page, code = r.text, r.status_code
         raw = parse_espn(page, now)
         ok = [v for v in (valid(f, now) for f in raw) if v]
-        status["espn"] = {"ok": bool(ok), "count": len(ok), "at": now.isoformat(timespec="seconds")}
+        # diagnóstico: si sale 0, aquí se ve por qué (código HTTP, tamaño, si vino el calendario)
+        status["espn"] = {"ok": bool(ok), "count": len(ok), "http": code, "bytes": len(page), "schedule": "Full schedule" in page,
+                          "cards": len(raw), "at": now.isoformat(timespec="seconds")}
         found += ok
     except Exception as e:
         status["espn"] = {"ok": False, "error": str(e)[:200], "at": now.isoformat(timespec="seconds")}
