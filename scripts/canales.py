@@ -153,9 +153,10 @@ def league_text(L):
         parts.append(html_to_text(wiki({"action": "parse", "page": L["page"], "section": s["index"], "prop": "text"})["parse"]["text"]))
     return "\n".join(parts), [s["line"] for s in pick]
 
-def chunks(text, size=14000, most=3):
+def chunks(text, size=6000, most=8):
     """Páginas largas (F1, Serie A, Champions): primero se quitan las líneas sin país; después se parte en pedazos."""
-    if len(text) > size:
+    # pedazos chicos: con 14 000 caracteres la IA cortaba la respuesta (Premier sin América, Champions con JSON roto; 16-oct)
+    if len(text) > size * 2:
         names = [k for k in LOWER] + list(REGIONS)
         keep = [l for l in text.split("\n") if l.startswith("##") or any(n in l[:160].lower() for n in names)]
         text = "\n".join(keep)
@@ -229,7 +230,7 @@ def main(demo=False):
                 rows = []
                 for part in chunks(text):
                     rows += ask_groq(L["name"], part)
-                    time.sleep(6)
+                    time.sleep(8)
             got, bad = validate(rows, text)
             prev = len((old.get(L["id"]) or {}).get("countries", {}))
             if len(got) < 3 or (prev and len(got) < prev * 0.4):
@@ -258,7 +259,7 @@ if __name__ == "__main__":
                   ("EE.UU. con sus canales", set(c.get("US", [])) == {"ESPN", "ESPN+"}),
                   ("acentos se respetan", c.get("BR") == ["CazéTV"]),
                   ("html_to_text arma filas", "Mexico | Sky Sports" in html_to_text("<table><tr>\n<td>Mexico\n</td>\n<td>Sky Sports<sup>[3]</sup>\n</td></tr></table>")),
-                  ("página larga: se quitan líneas sin país y se parte", len(chunks("## A\n" + "historia sin datos\n" * 3000 + "Mexico | TUDN\n" * 1500)) == 2)]
+                  ("página larga: se quitan líneas sin país y se parte", (lambda c: len(c) == 4 and not any("historia" in x for x in c))(chunks("## A\n" + "historia sin datos\n" * 3000 + "Mexico | TUDN\n" * 1500)))]
         for n, ok in checks:
             print(("OK " if ok else "FAIL ") + n)
         print("RESULT", sum(ok for _, ok in checks), "/", len(checks))
