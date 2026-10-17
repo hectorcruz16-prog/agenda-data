@@ -1,19 +1,20 @@
 {
- "updated": "2026-10-16T23:54:08+00:00",
+ "updated": "2026-10-17T00:14:17+00:00",
  "status": {
   "esp.1": {
    "ok": true,
-   "countries": 99,
+   "countries": 50,
    "skipped": 0
   },
   "eng.1": {
    "ok": true,
-   "countries": 44,
-   "skipped": 2
+   "countries": 31,
+   "skipped": 1
   },
   "uefa.champions": {
-   "ok": false,
-   "error": "Groq: gpt-oss-120b JSON malo, gpt-oss-20b 400, gpt-oss-20b JSON malo, qwen3.8-27b 429"
+   "ok": true,
+   "countries": 61,
+   "skipped": 1
   },
   "ita.1": {
    "ok": true,
@@ -27,8 +28,8 @@
   },
   "fra.1": {
    "ok": true,
-   "countries": 75,
-   "skipped": 5
+   "countries": 65,
+   "skipped": 0
   },
   "mex.1": {
    "ok": true,
@@ -47,8 +48,8 @@
   },
   "f1": {
    "ok": true,
-   "countries": 70,
-   "skipped": 2
+   "countries": 72,
+   "skipped": 0
   },
   "mlb": {
    "ok": true,
@@ -79,45 +80,22 @@
    "name": "LaLiga",
    "source": "https://en.wikipedia.org/wiki/List_of_La_Liga_broadcasters",
    "sections": null,
-   "checked": "2026-10-16T23:54:08+00:00",
+   "checked": "2026-10-17T00:14:17+00:00",
    "countries": {
     "AF": [
      "AF Sports",
      "Meraj Sports"
     ],
-    "AL": [
-     "SuperSport"
-    ],
-    "AM": [
-     "Fast Sports"
-    ],
     "AR": [
      "ESPN",
      "DSports"
     ],
-    "AT": [
-     "DAZN"
-    ],
     "AU": [
      "beIN Sports"
-    ],
-    "AZ": [
-     "Setanta Sports",
-     "Idman TV",
-     "SportTV"
-    ],
-    "BA": [
-     "Arena Sport"
     ],
     "BD": [
      "T Sports",
      "Tapmad"
-    ],
-    "BE": [
-     "DAZN"
-    ],
-    "BG": [
-     "Max Sport"
     ],
     "BN": [
      "beIN Sports"
@@ -130,22 +108,12 @@
      "CazéTV",
      "SportyNet"
     ],
-    "BY": [
-     "Kinopoisk",
-     "Belarus 5"
-    ],
     "CA": [
      "TSN",
      "RDS"
     ],
     "CARIB": [
      "Rush Sports"
-    ],
-    "CASIA": [
-     "Setanta Sports"
-    ],
-    "CH": [
-     "DAZN"
     ],
     "CL": [
      "ESPN",
@@ -166,46 +134,12 @@
     "CU": [
      "Tele Rebelde"
     ],
-    "CY": [
-     "Cytavision Sports"
-    ],
-    "CZ": [
-     "Nova Sport"
-    ],
-    "DE": [
-     "DAZN"
-    ],
-    "DK": [
-     "Disney+"
-    ],
     "DO": [
      "Sky Sports"
     ],
     "EC": [
      "ESPN",
      "DSports"
-    ],
-    "EE": [
-     "Setanta Sports",
-     "Go3 Sport"
-    ],
-    "FI": [
-     "Disney+"
-    ],
-    "FR": [
-     "Disney+",
-     "DAZN"
-    ],
-    "GB": [
-     "Premier Sports",
-     "Disney+"
-    ],
-    "GE": [
-     "Silk Sport",
-     "Setanta Sports"
-    ],
-    "GR": [
-     "Magenta Sport"
     ],
     "GT": [
      "Sky Sports",
@@ -218,39 +152,19 @@
      "Sky Sports",
      "Vix+ en Tigo"
     ],
-    "HR": [
-     "Sport Klub"
-    ],
     "HT": [
      "Canal+"
-    ],
-    "HU": [
-     "Spíler TV"
     ],
     "ID": [
      "beIN Sports"
     ],
-    "IE": [
-     "Premier Sports",
-     "Disney+"
-    ],
     "IN": [
      "FanCode"
-    ],
-    "IQ": [
-     "1001"
     ],
     "IR": [
      "IRIB Varzesh",
      "Gem Sport",
      "Persiana Sports"
-    ],
-    "IS": [
-     "Disney+"
-    ],
-    "IT": [
-     "DAZN",
-     "Mediaset"
     ],
     "JP": [
      "DAZN",
@@ -268,33 +182,10 @@
     "LK": [
      "Begin"
     ],
-    "LT": [
-     "Setanta Sports",
-     "Go3 Sport"
-    ],
-    "LU": [
-     "DAZN"
-    ],
-    "LV": [
-     "Setanta Sports",
-     "Go3 Sport"
-    ],
-    "ME": [
-     "Arena Sport"
-    ],
-    "MENA": [
-     "beIN Sports"
-    ],
-    "MK": [
-     "Arena Sport"
-    ],
     "MO": [
      "TDM",
      "Macau Cable TV",
      "M Plus"
-    ],
-    "MT": [
-     "Total Sports Network"
     ],
     "MX": [
      "Sky Sports",
@@ -307,13 +198,6 @@
      "Sky Sports",
      "Vix+ en Tigo"
     ],
-    "NL": [
-     "Ziggo Sport"
-    ],
-    "NO": [
-     "TV 2 Sport",
-     "Viaplay"
-    ],
     "NP": [
      "DGO"
     ],
@@ -323,9 +207,6 @@
     "PA": [
      "Sky Sports",
      "Vix+ en Tigo"
-    ],
-    "PAC": [
-     "Digicel"
     ],
     "PE": [
      "ESPN",
@@ -341,45 +222,14 @@
     "PK": [
      "Begin"
     ],
-    "PL": [
-     "Canal+"
-    ],
     "PR": [
      "ESPN"
-    ],
-    "PS": [
-     "ONE"
-    ],
-    "PT": [
-     "DAZN"
     ],
     "PY": [
      "ESPN"
     ],
-    "RO": [
-     "Digi Sport",
-     "Prima Sport"
-    ],
-    "RS": [
-     "Arena Sport"
-    ],
-    "RU": [
-     "Match TV"
-    ],
-    "SE": [
-     "Disney+"
-    ],
     "SG": [
      "beIN Sports"
-    ],
-    "SI": [
-     "Sport Klub"
-    ],
-    "SK": [
-     "Nova Sport"
-    ],
-    "SM": [
-     "DAZN"
     ],
     "SV": [
      "Sky Sports",
@@ -389,14 +239,8 @@
      "beIN Sports",
      "PPTV"
     ],
-    "TR": [
-     "S Sport"
-    ],
     "TW": [
      "DAZN"
-    ],
-    "UA": [
-     "MEGOGO"
     ],
     "US": [
      "ESPN"
@@ -415,9 +259,6 @@
     "VN": [
      "SCTV",
      "On Sports"
-    ],
-    "XK": [
-     "Sport"
     ]
    }
   },
@@ -433,7 +274,7 @@
     "North American and Caribbean broadcasters",
     "Oceania broadcasters"
    ],
-   "checked": "2026-10-16T23:54:08+00:00",
+   "checked": "2026-10-17T00:14:17+00:00",
    "countries": {
     "AD": [
      "DAZN"
@@ -447,26 +288,8 @@
     "AL": [
      "SuperSport"
     ],
-    "AM": [
-     "Fast Sports"
-    ],
-    "AT": [
-     "Sky Sport"
-    ],
-    "AZ": [
-     "Setanta Sports"
-    ],
-    "BA": [
-     "Arena Sport"
-    ],
     "BD": [
      "Myco"
-    ],
-    "BE": [
-     "Play Sports"
-    ],
-    "BY": [
-     "TBD"
     ],
     "CI": [
      "NCI"
@@ -474,38 +297,11 @@
     "CN": [
      "Migu"
     ],
-    "CY": [
-     "Cytavision Sports"
-    ],
-    "CZ": [
-     "Canal+ Sport"
-    ],
-    "DE": [
-     "Sky Sport"
-    ],
-    "DK": [
-     "Viaplay"
-    ],
-    "EE": [
-     "Go3 Sport"
-    ],
-    "FI": [
-     "Viaplay"
-    ],
-    "FR": [
-     "Canal+"
-    ],
-    "GE": [
-     "Setanta Sports"
-    ],
     "GH": [
      "SportyTV"
     ],
     "HK": [
      "now TV"
-    ],
-    "ID": [
-     "Emtek"
     ],
     "IR": [
      "IRIB Varzesh"
@@ -536,6 +332,12 @@
     ],
     "MZ": [
      "TV Miramar"
+    ],
+    "NZ": [
+     "Sky Sport"
+    ],
+    "PAC": [
+     "Digicel"
     ],
     "PH": [
      "Setanta Sports"
@@ -573,7 +375,7 @@
    "name": "Serie A",
    "source": "https://en.wikipedia.org/wiki/List_of_Serie_A_broadcasters",
    "sections": null,
-   "checked": "2026-10-16T23:54:08+00:00",
+   "checked": "2026-10-17T00:14:17+00:00",
    "countries": {
     "AD": [
      "DAZN"
@@ -840,7 +642,7 @@
    "sections": [
     "Media coverage"
    ],
-   "checked": "2026-10-16T23:54:08+00:00",
+   "checked": "2026-10-17T00:14:17+00:00",
    "countries": {
     "AFR": [
      "StarTimes"
@@ -861,9 +663,9 @@
      "Sky Sports",
      "BBC",
      "Amazon Prime Video",
-     "Bundesliga's official YouTube channel",
-     "Jamie Vardy's Having a Party",
-     "That's Football"
+     "That's Football",
+     "The Overlap",
+     "Jamie Vardy's Having a Party"
     ],
     "ID": [
      "MNC Group"
@@ -872,16 +674,18 @@
      "Sky Sports",
      "BBC",
      "Amazon Prime Video",
-     "Bundesliga's official YouTube channel",
-     "Jamie Vardy's Having a Party",
-     "That's Football"
+     "That's Football",
+     "The Overlap",
+     "Jamie Vardy's Having a Party"
     ],
     "MENA": [
      "Shahid",
-     "MBC Action"
+     "MBC Action",
+     "MBC GROUP"
     ],
     "TW": [
-     "ELTA TV"
+     "ELTA TV",
+     "ELTA"
     ],
     "US": [
      "Versant",
@@ -892,7 +696,8 @@
      "Peacock"
     ],
     "VN": [
-     "TV360"
+     "TV360",
+     "Viettel"
     ]
    }
   },
@@ -903,14 +708,14 @@
     "Media coverage",
     "International broadcasters"
    ],
-   "checked": "2026-10-16T23:54:08+00:00",
+   "checked": "2026-10-17T00:14:17+00:00",
    "countries": {
     "AD": [
      "DAZN"
     ],
     "AFR": [
-     "Canal+ Afrique",
-     "SuperSport"
+     "Ligue 1+",
+     "Canal+ Afrique"
     ],
     "AL": [
      "SuperSport"
@@ -920,9 +725,6 @@
     ],
     "AT": [
      "DAZN"
-    ],
-    "AU": [
-     "TBD"
     ],
     "AZ": [
      "Setanta Sports",
@@ -937,10 +739,8 @@
     "BG": [
      "Diema Sport"
     ],
-    "BN": [
-     "TBD"
-    ],
     "BR": [
+     "Ligue 1+",
      "CazéTV",
      "XSports"
     ],
@@ -948,13 +748,12 @@
      "Kinopoisk"
     ],
     "CA": [
+     "Ligue 1+",
      "beIN Sports"
     ],
     "CAMER": [
+     "Ligue 1+",
      "ESPN"
-    ],
-    "CASIA": [
-     "Setanta Sports"
     ],
     "CH": [
      "DAZN",
@@ -986,26 +785,17 @@
     "FI": [
      "Viaplay"
     ],
-    "FR": [
-     "Ligue 1+"
-    ],
     "GB": [
      "Ligue 1+"
     ],
     "GE": [
      "Setanta Sports"
     ],
-    "GR": [
-     "TBD"
-    ],
     "HK": [
      "beIN Sports"
     ],
     "HR": [
      "Arena Sport"
-    ],
-    "HU": [
-     "TBD"
     ],
     "ID": [
      "Emtek"
@@ -1028,14 +818,14 @@
     "JP": [
      "DAZN"
     ],
-    "KH": [
-     "TBD"
-    ],
     "KR": [
      "Coupang Play"
     ],
     "LA": [
      "JAS"
+    ],
+    "LATAM": [
+     "Ligue 1+"
     ],
     "LT": [
      "Setanta Sports",
@@ -1064,10 +854,8 @@
      "TVMSport+"
     ],
     "MX": [
+     "Ligue 1+",
      "Fox"
-    ],
-    "MY": [
-     "TBD"
     ],
     "NL": [
      "Viaplay"
@@ -1075,17 +863,14 @@
     "NO": [
      "Viaplay"
     ],
-    "NZ": [
-     "TBD"
-    ],
-    "PH": [
-     "TBD"
-    ],
     "PK": [
      "Tapmad"
     ],
     "PL": [
      "Eleven Sports"
+    ],
+    "PR": [
+     "Ligue 1+"
     ],
     "PT": [
      "Sport TV"
@@ -1102,17 +887,11 @@
     "SE": [
      "Viaplay"
     ],
-    "SG": [
-     "TBD"
-    ],
     "SI": [
      "Arena Sport"
     ],
     "SK": [
      "Nova Sport"
-    ],
-    "SM": [
-     "TBD"
     ],
     "TH": [
      "MONOMAX"
@@ -1127,6 +906,7 @@
      "MEGOGO"
     ],
     "US": [
+     "Ligue 1+",
      "beIN Sports"
     ],
     "UZ": [
@@ -1147,19 +927,18 @@
     "Media coverage",
     "Broadcast rights"
    ],
-   "checked": "2026-10-16T23:54:08+00:00",
+   "checked": "2026-10-17T00:14:17+00:00",
    "countries": {
     "CAMER": [
-     "ESPN",
-     "Vix"
-    ],
-    "CL": [
-     "TVN"
+     "Sky Sports",
+     "TUDN",
+     "ESPN"
     ],
     "LATAM": [
      "Fox Sports",
-     "Vix",
-     "Disney+"
+     "Sky Sports",
+     "TUDN",
+     "ESPN"
     ],
     "MX": [
      "Televisa",
@@ -1176,6 +955,9 @@
      "Telemundo",
      "FS1",
      "FS2"
+    ],
+    "WW": [
+     "OneFootball"
     ]
    }
   },
@@ -1183,7 +965,7 @@
    "name": "MLS",
    "source": "https://en.wikipedia.org/wiki/List_of_current_Major_League_Soccer_broadcasters",
    "sections": null,
-   "checked": "2026-10-16T23:54:08+00:00",
+   "checked": "2026-10-17T00:14:17+00:00",
    "countries": {
     "CA": [
      "TSN",
@@ -1214,7 +996,7 @@
     "Media coverage",
     "Broadcasting rights"
    ],
-   "checked": "2026-10-16T23:54:08+00:00",
+   "checked": "2026-10-17T00:14:17+00:00",
    "countries": {
     "AR": [
      "ESPN",
@@ -1239,8 +1021,15 @@
    "name": "Fórmula 1",
    "source": "https://en.wikipedia.org/wiki/List_of_Formula_One_broadcasters",
    "sections": null,
-   "checked": "2026-10-16T23:54:08+00:00",
+   "checked": "2026-10-17T00:14:17+00:00",
    "countries": {
+    "AD": [
+     "DAZN"
+    ],
+    "AFR": [
+     "SuperSport",
+     "DStv Stream"
+    ],
     "AL": [
      "SuperSport"
     ],
@@ -1248,9 +1037,7 @@
      "Fast Sports"
     ],
     "AR": [
-     "Fox Sports",
-     "Disney+",
-     "ESPN"
+     "Fox Sports"
     ],
     "AT": [
      "ORF",
@@ -1258,8 +1045,8 @@
     ],
     "AU": [
      "Network 10",
-     "Kayo Sports",
-     "Foxtel"
+     "Foxtel",
+     "Kayo Sports"
     ],
     "AZ": [
      "Idman Azerbaijan TV"
@@ -1278,20 +1065,14 @@
     "BN": [
      "beIN Sports"
     ],
-    "BO": [
-     "ESPN"
-    ],
     "BR": [
      "TV Globo",
-     "SporTV",
      "Globoplay"
     ],
     "CA": [
      "RDS",
-     "TSN+"
-    ],
-    "CAMER": [
-     "ESPN"
+     "TSN+",
+     "TSN"
     ],
     "CARIB": [
      "ESPN"
@@ -1299,15 +1080,10 @@
     "CASIA": [
      "Setanta Sports"
     ],
-    "CL": [
-     "ESPN"
-    ],
     "CN": [
      "Great Sports",
-     "Tencent Sports"
-    ],
-    "CO": [
-     "ESPN"
+     "Tencent Sports",
+     "CCTV"
     ],
     "CY": [
      "Omega Channel"
@@ -1316,7 +1092,6 @@
      "Nova Sport"
     ],
     "DE": [
-     "RTL Television",
      "Sky Go"
     ],
     "DK": [
@@ -1324,13 +1099,14 @@
      "Viaplay"
     ],
     "EE": [
-     "Go3 Sport"
+     "Viaplay"
     ],
     "ES": [
      "DAZN"
     ],
     "FI": [
-     "V Sport"
+     "V Sport",
+     "Viaplay"
     ],
     "FR": [
      "Canal+",
@@ -1344,7 +1120,8 @@
      "Setanta Sports"
     ],
     "GR": [
-     "ANT1"
+     "ANT1",
+     "ΑΝΤ1+"
     ],
     "HK": [
      "beIN Sports"
@@ -1370,7 +1147,8 @@
      "FanCode"
     ],
     "IS": [
-     "Viaplay Group"
+     "Viaplay Group",
+     "Viaplay"
     ],
     "IT": [
      "Sky Sport F1",
@@ -1379,10 +1157,14 @@
     ],
     "JP": [
      "Fuji TV",
-     "Fuji TV On Demand"
+     "Fuji TV On Demand",
+     "Fuji TV NEXT"
     ],
     "KH": [
      "beIN Sports"
+    ],
+    "KR": [
+     "Coupang Play"
     ],
     "LA": [
      "beIN Sports"
@@ -1392,14 +1174,13 @@
      "Disney+"
     ],
     "LT": [
-     "Go3 Sport"
+     "Viaplay"
     ],
     "LU": [
-     "RTL",
-     "RTL Luxembourg"
+     "RTL"
     ],
     "LV": [
-     "Go3 Sport"
+     "Viaplay"
     ],
     "MC": [
      "Canal+"
@@ -1408,14 +1189,10 @@
      "Arena Sport"
     ],
     "MENA": [
-     "beIN Sports",
-     "beIN SPORTS"
+     "beIN Sports"
     ],
     "MK": [
      "Arena Sport"
-    ],
-    "MM": [
-     "Canal+"
     ],
     "MT": [
      "TVMSport+"
@@ -1423,65 +1200,78 @@
     "MX": [
      "Sky Sports",
      "Sky+",
-     "Disney+",
      "Sky Sports Mexico"
     ],
     "MY": [
      "RTM",
-     "Okey",
-     "Sukan+",
      "RTMKlik"
     ],
     "NL": [
      "Viaplay"
     ],
     "NO": [
-     "V Sport"
+     "V Sport",
+     "Viaplay"
     ],
     "NZ": [
      "Sky Sport",
-     "Sky Open",
-     "Sky Go"
-    ],
-    "PE": [
-     "ESPN"
+     "Sky Go",
+     "Sky New Zealand"
     ],
     "PH": [
      "beIN Sports"
     ],
     "PL": [
-     "Eleven Sports",
-     "Super Polsat TV"
+     "Eleven Sports"
     ],
     "PT": [
      "DAZN"
-    ],
-    "PY": [
-     "ESPN"
     ],
     "RO": [
      "Antena",
      "AntenaPLAY"
     ],
+    "RS": [
+     "Arena Sport"
+    ],
     "RU": [
      "Okko"
     ],
+    "SE": [
+     "V Sport",
+     "Viaplay"
+    ],
+    "SG": [
+     "beIN Sports",
+     "Mediacorp Channel 5"
+    ],
+    "SI": [
+     "Kanal A"
+    ],
+    "SK": [
+     "Nova Sport"
+    ],
+    "SM": [
+     "Sky Sport F1"
+    ],
     "TR": [
-     "beIN SPORTS"
+     "beIN Sports"
     ],
     "TW": [
      "ELTA OTT",
-     "Sky Sports F1"
+     "Videoland"
+    ],
+    "UA": [
+     "Setanta Sports Eurasia"
     ],
     "US": [
      "Apple TV",
-     "F1 TV"
-    ],
-    "UY": [
-     "ESPN"
+     "NBC Sports",
+     "Apple"
     ],
     "VN": [
-     "TV360"
+     "TV360",
+     "Viettel Telecom"
     ],
     "XK": [
      "Sport"
@@ -1496,12 +1286,11 @@
     "Canada",
     "United Kingdom"
    ],
-   "checked": "2026-10-16T23:54:08+00:00",
+   "checked": "2026-10-17T00:14:17+00:00",
    "countries": {
     "CA": [
      "Sportsnet",
      "Sportsnet One",
-     "RDS",
      "TVA Sports",
      "Apple TV+"
     ],
@@ -1527,7 +1316,7 @@
     "United States",
     "International"
    ],
-   "checked": "2026-10-16T23:54:08+00:00",
+   "checked": "2026-10-17T00:14:17+00:00",
    "countries": {
     "AU": [
      "Fox Sports"
@@ -1537,14 +1326,14 @@
     ],
     "CA": [
      "Sportsnet",
-     "Amazon Prime Video",
-     "Sportsnet+",
      "Citytv",
      "FX Canada",
+     "Amazon Prime Video",
+     "Sportsnet+",
      "TVA Sports"
     ],
     "CAMER": [
-     "DirecTV"
+     "SKY México"
     ],
     "CARIB": [
      "DirecTV"
@@ -1558,7 +1347,7 @@
      "Viaplay"
     ],
     "DO": [
-     "DirecTV"
+     "SKY México"
     ],
     "EE": [
      "Viaplay"
@@ -1615,10 +1404,10 @@
     "US": [
      "ESPN",
      "ABC",
-     "ESPN+",
-     "Hulu",
      "TNT",
-     "TBS"
+     "TBS",
+     "ESPN+",
+     "Hulu"
     ]
    }
   },
@@ -1629,20 +1418,21 @@
     "Television",
     "International broadcasters"
    ],
-   "checked": "2026-10-16T23:54:08+00:00",
+   "checked": "2026-10-17T00:14:17+00:00",
    "countries": {
     "AE": [
      "Abu Dhabi Media"
     ],
     "BR": [
      "Rede Bandeirantes",
-     "UFC Fight Pass"
+     "Fight Pass"
     ],
     "CA": [
      "Sportsnet"
     ],
     "GB": [
-     "TNT Sports"
+     "TNT Sports",
+     "TNT Sports Box Office"
     ],
     "ID": [
      "tvOne"
@@ -1655,7 +1445,7 @@
     ],
     "LK": [
      "Sony Sports Ten 2",
-     "UFC Fight Pass"
+     "Fight Pass"
     ],
     "MX": [
      "Fighting Sports Network",
@@ -1674,6 +1464,207 @@
     "US": [
      "CBS",
      "Paramount+"
+    ]
+   }
+  },
+  "uefa.champions": {
+   "name": "UEFA Champions League",
+   "source": "https://en.wikipedia.org/wiki/List_of_UEFA_Champions_League_broadcasters",
+   "sections": null,
+   "checked": "2026-10-17T00:14:17+00:00",
+   "countries": {
+    "AFR": [
+     "Canal Plus"
+    ],
+    "AM": [
+     "Fast Sports"
+    ],
+    "AU": [
+     "Stan Sport"
+    ],
+    "BA": [
+     "Arena Sport"
+    ],
+    "BD": [
+     "tapmad"
+    ],
+    "BE": [
+     "Proximus"
+    ],
+    "BN": [
+     "beIN Sports"
+    ],
+    "CA": [
+     "DAZN"
+    ],
+    "CAMER": [
+     "ESPN"
+    ],
+    "CARIB": [
+     "Rush Sports",
+     "RUSH Sports"
+    ],
+    "CI": [
+     "NCI"
+    ],
+    "CM": [
+     "CRTV"
+    ],
+    "CN": [
+     "iQIYI"
+    ],
+    "CY": [
+     "CYTA"
+    ],
+    "CZ": [
+     "Nova Sport"
+    ],
+    "DK": [
+     "Viaplay"
+    ],
+    "DO": [
+     "Antena 7"
+    ],
+    "EE": [
+     "Go3 Sport"
+    ],
+    "ES": [
+     "Movistar Plus+"
+    ],
+    "FI": [
+     "MTV",
+     "Viaplay"
+    ],
+    "GB": [
+     "Amazon"
+    ],
+    "HK": [
+     "beIN Sports"
+    ],
+    "HT": [
+     "Canal+"
+    ],
+    "IE": [
+     "RTE",
+     "Premier Sports",
+     "Virgin Media"
+    ],
+    "IL": [
+     "Sports Channel"
+    ],
+    "IN": [
+     "Sony"
+    ],
+    "IS": [
+     "Viaplay"
+    ],
+    "JM": [
+     "TVJ"
+    ],
+    "JP": [
+     "WOWOW"
+    ],
+    "KH": [
+     "beIN Sports"
+    ],
+    "KR": [
+     "SPOTV",
+     "Coupang"
+    ],
+    "LA": [
+     "beIN Sports"
+    ],
+    "LATAM": [
+     "ESPN"
+    ],
+    "LT": [
+     "Go3 Sport"
+    ],
+    "LV": [
+     "Go3 Sport"
+    ],
+    "ME": [
+     "Arena Sport"
+    ],
+    "MENA": [
+     "beIN Sports",
+     "beIN"
+    ],
+    "MK": [
+     "Arena Sport"
+    ],
+    "MM": [
+     "Canal+"
+    ],
+    "MN": [
+     "PSN"
+    ],
+    "MO": [
+     "TDM"
+    ],
+    "MY": [
+     "beIN Sports"
+    ],
+    "NL": [
+     "Ziggo Sport"
+    ],
+    "NO": [
+     "TV2",
+     "Viaplay"
+    ],
+    "NZ": [
+     "DAZN"
+    ],
+    "PAC": [
+     "Digicel"
+    ],
+    "PH": [
+     "beIN Sports"
+    ],
+    "PK": [
+     "tapmad"
+    ],
+    "PT": [
+     "Sport TV",
+     "DAZN"
+    ],
+    "RU": [
+     "Okko"
+    ],
+    "SE": [
+     "Viaplay"
+    ],
+    "SG": [
+     "beIN Sports"
+    ],
+    "SI": [
+     "Sport Klub"
+    ],
+    "SK": [
+     "Nova Sport"
+    ],
+    "TH": [
+     "beIN Sports"
+    ],
+    "TR": [
+     "TRT"
+    ],
+    "TW": [
+     "ELTA",
+     "ELTA TV"
+    ],
+    "UA": [
+     "Megogo"
+    ],
+    "US": [
+     "CBS Sports",
+     "Paramount+"
+    ],
+    "UZ": [
+     "Zo'r TV"
+    ],
+    "VN": [
+     "Vietcontent"
     ]
    }
   }
