@@ -1,38 +1,15 @@
 {
- "updated": "2026-10-18T02:29:20.282187+00:00",
+ "updated": "2026-10-18T02:31:15.077592+00:00",
  "source": "El Nuevo Día y Primera Hora (notas de boxeo) + Groq",
  "status": {
-  "El Nuevo Día": "30 notas en la sección, 18 nuevas",
-  "Primera Hora": "19 notas en la sección, 18 nuevas"
+  "El Nuevo Día": "30 notas en la sección, 12 nuevas",
+  "Primera Hora": "19 notas en la sección, 1 nuevas"
  },
  "fights": [
   {
-   "date": "2026-10-17T00:00:00-04:00",
-   "timeValid": false,
-   "title": "Juanmita López vs. Jesús “Pumita” Ramírez",
-   "where": "Cancha Roger Mendoza, Caguas, Puerto Rico",
-   "channels": [],
-   "weight": "115 libras",
-   "belts": [],
-   "titleFight": false,
-   "importance": 62,
-   "card": [
-    {
-     "fight": "Juanmita López vs. Jesús “Pumita” Ramírez",
-     "title": false,
-     "rounds": 6,
-     "weight": "115 libras"
-    }
-   ],
-   "promoter": "Miguel Cotto Promotions",
-   "source": "El Nuevo Día",
-   "url": "https://www.elnuevodia.com/deportes/boxeo/notas/un-inesperado-giro-le-cambia-los-planes-a-juanmita-lopez-nos-pica-un-poquito/",
-   "pr": true
-  },
-  {
    "date": "2026-10-17T21:00:00-04:00",
    "timeValid": true,
-   "title": "Juanmita López de Jesús (rival por anunciar)",
+   "title": "Juanmita López vs. Jesús “Pumita” Ramírez",
    "where": "Coliseo Roger Mendoza, Caguas, Puerto Rico",
    "channels": [
     "YouTube",
@@ -44,9 +21,9 @@
    "importance": 62,
    "card": [
     {
-     "fight": "Juanmita López de Jesús (rival por anunciar)",
+     "fight": "Juanmita López vs. Jesús “Pumita” Ramírez",
      "title": false,
-     "rounds": 8,
+     "rounds": 6,
      "weight": "115 libras"
     },
     {
@@ -92,9 +69,9 @@
      "weight": ""
     }
    ],
-   "promoter": "Miguel Cotto Promotions, H2 Entertainment y Top Rank",
-   "source": "Primera Hora",
-   "url": "https://www.primerahora.com/deportes/boxeo/notas/juanmita-lopez-de-jesus-peleara-por-primera-vez-a-ocho-asaltos-en-su-regreso-al-ring-criollo/",
+   "promoter": "Miguel Cotto Promotions",
+   "source": "El Nuevo Día",
+   "url": "https://www.elnuevodia.com/deportes/boxeo/notas/un-inesperado-giro-le-cambia-los-planes-a-juanmita-lopez-nos-pica-un-poquito/",
    "pr": true
   }
  ]
