@@ -1,17 +1,67 @@
 {
- "updated": "2026-10-17T13:44:35+00:00",
+ "updated": "2026-10-18T00:04:01+00:00",
  "sources": {
   "espn": {
    "ok": true,
-   "count": 22,
+   "count": 21,
    "http": 200,
-   "bytes": 10791,
+   "bytes": 9736,
    "schedule": true,
-   "cards": 22,
-   "at": "2026-10-17T13:44:35+00:00"
+   "cards": 21,
+   "at": "2026-10-18T00:04:01+00:00"
   }
  },
  "fights": [
+  {
+   "date": "2026-10-17T00:00:00-04:00",
+   "timeValid": false,
+   "title": "Sebastian Fundora vs. Ermal Hadribeaj",
+   "where": "Las Vegas",
+   "channels": [
+    "DAZN",
+    "TNT"
+   ],
+   "channels_latam": [],
+   "weight": "superwélter",
+   "belts": [
+    "WBC"
+   ],
+   "titleFight": true,
+   "importance": 91,
+   "card": [
+    {
+     "fight": "Sebastian Fundora vs. Ermal Hadribeaj",
+     "title": true,
+     "rounds": 12,
+     "weight": "superwélter"
+    },
+    {
+     "fight": "Armando Resendiz vs. Koen Mazoudier",
+     "title": false,
+     "rounds": 10,
+     "weight": "supermediano"
+    },
+    {
+     "fight": "Jaime Enrique Osuna Diaz vs. Cristian Cangelosi",
+     "title": false,
+     "rounds": 8,
+     "weight": "mediano"
+    },
+    {
+     "fight": "Marco Romero vs. Braulio Matias Ferreira",
+     "title": false,
+     "rounds": 8,
+     "weight": "supermediano"
+    },
+    {
+     "fight": "David Garcia vs. Angel Carrillo",
+     "title": false,
+     "rounds": 6,
+     "weight": "pluma"
+    }
+   ],
+   "source": "ESPN"
+  },
   {
    "date": "2026-10-17T00:00:00-04:00",
    "timeValid": false,
@@ -99,62 +149,6 @@
      "title": false,
      "rounds": 4,
      "weight": "mediano"
-    }
-   ],
-   "source": "ESPN"
-  },
-  {
-   "date": "2026-10-17T00:00:00-04:00",
-   "timeValid": false,
-   "title": "Sebastian Fundora vs. Ermal Hadribeaj",
-   "where": "Las Vegas",
-   "channels": [
-    "DAZN",
-    "TNT"
-   ],
-   "channels_latam": [],
-   "weight": "superwélter",
-   "belts": [
-    "WBC"
-   ],
-   "titleFight": true,
-   "importance": 97,
-   "card": [
-    {
-     "fight": "Sebastian Fundora vs. Ermal Hadribeaj",
-     "title": true,
-     "rounds": 12,
-     "weight": "superwélter"
-    },
-    {
-     "fight": "Brandon Figueroa vs. Tomoki Kameda",
-     "title": true,
-     "rounds": 12,
-     "weight": "pluma"
-    },
-    {
-     "fight": "Armando Resendiz vs. Koen Mazoudier",
-     "title": false,
-     "rounds": 10,
-     "weight": "supermediano"
-    },
-    {
-     "fight": "Jaime Enrique Osuna Diaz vs. Cristian Cangelosi",
-     "title": false,
-     "rounds": 8,
-     "weight": "mediano"
-    },
-    {
-     "fight": "Marco Romero vs. Braulio Matias Ferreira",
-     "title": false,
-     "rounds": 8,
-     "weight": "supermediano"
-    },
-    {
-     "fight": "David Garcia vs. Angel Carrillo",
-     "title": false,
-     "rounds": 6,
-     "weight": "pluma"
     }
    ],
    "source": "ESPN"
