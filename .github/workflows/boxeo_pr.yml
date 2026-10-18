@@ -1,0 +1,34 @@
+# Robot de boxeo boricua: lee las notas de boxeo de El Nuevo Día y Primera Hora y saca las carteleras en Puerto Rico (con Groq).
+# Guarda data/pr_fights.json (la app lo junta con el calendario de ESPN) y data/pr_seen.json (notas ya leídas, para no repetir).
+name: Carteleras de boxeo en PR
+on:
+  schedule:
+    - cron: "43 11,23 * * *"   # 2 veces al día (7:43 am y 7:43 pm hora de PR)
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths: ["scripts/boxeo_pr.py", ".github/workflows/boxeo_pr.yml"]
+permissions:
+  contents: write
+concurrency: boxeo-pr
+jobs:
+  boxeo-pr:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install requests==2.32.3
+      - run: python scripts/boxeo_pr.py --demo
+      - run: python scripts/boxeo_pr.py
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+      - name: Guardar si cambió
+        run: |
+          git config user.name "agenda-robot"
+          git config user.email "agenda-robot@users.noreply.github.com"
+          git add data/pr_fights.json data/pr_seen.json
+          if ! git diff --cached --quiet; then
+            git commit -m "boxeo PR $(date -u +%Y-%m-%d)"
+            git pull --rebase -q origin main || true
+            git push
+          fi
