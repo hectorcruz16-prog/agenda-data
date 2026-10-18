@@ -96,16 +96,40 @@ def to_app(c):
             "card": [{"fight": vs(f), "title": f["title"], "rounds": f["rounds"], "weight": weight_es(f.get("weight") or "") or (f.get("weight") or "")} for f in fs[:14]],
             "promoter": c.get("promoter") or "", "source": c.get("source", "Prensa de PR"), "url": c.get("url", ""), "pr": True}
 
+def fkey(fight):
+    """Pelea → clave por el primer peleador (nombre + primer apellido): "Juanmita López de Jesús (rival…)" = "Juanmita López vs. …"."""
+    a = norm(re.split(r"\s+vs\.?\s+|\(", fight)[0]).split()
+    return " ".join(a[:2])
+
+def ckey(f):
+    """Cartelera → fecha + pueblo ("Coliseo Roger Mendoza, Caguas" y "Cancha Roger Mendoza, Caguas" son la misma)."""
+    parts = [x.strip() for x in f["where"].split(",")]
+    town = parts[-2] if len(parts) >= 3 else parts[0]
+    return f["date"][:10] + "|" + norm(town)
+
 def merge(old, new):
-    """Una cartelera por fecha+lugar; si llega otra nota de la misma, se juntan las peleas (gana lo más nuevo)."""
-    key = lambda f: f["date"][:10] + "|" + norm(f["where"]).split(" ")[0]
-    out = {key(f): f for f in old}
-    for f in new:
-        k = key(f)
-        if k in out:
-            names = {norm(x["fight"]) for x in f["card"]}
-            f["card"] = f["card"] + [x for x in out[k]["card"] if norm(x["fight"]) not in names]
-        out[k] = f
+    """Una cartelera por fecha+pueblo. Si llega otra nota de la misma, se juntan las peleas; una pelea con rival le gana a la misma "(rival por anunciar)"."""
+    out = {}
+    for f in list(old) + list(new):
+        k = ckey(f)
+        if k not in out:
+            out[k] = {**f, "card": list(f["card"])}
+            continue
+        cur = out[k]
+        for c in f["card"]:
+            i = next((j for j, x in enumerate(cur["card"]) if fkey(x["fight"]) == fkey(c["fight"])), None)
+            if i is None:
+                cur["card"].append(c)
+            elif "(rival" in cur["card"][i]["fight"] and "(rival" not in c["fight"]:
+                cur["card"][i] = {**cur["card"][i], **{k2: v for k2, v in c.items() if v not in (None, "")}}
+        for k2 in ("channels",):
+            cur[k2] = list(dict.fromkeys((cur.get(k2) or []) + (f.get(k2) or [])))
+        if f.get("timeValid") and not cur.get("timeValid"):
+            cur["date"], cur["timeValid"] = f["date"], True
+        if f["where"].lower().startswith("coliseo") and not cur["where"].lower().startswith("coliseo"):
+            cur["where"] = f["where"]
+    for f in out.values():  # la estelar: la primera pelea (con rival si ya se sabe)
+        f["title"] = f["card"][0]["fight"]
     return sorted(out.values(), key=lambda f: f["date"])
 
 def main(demo=False):
@@ -169,6 +193,10 @@ def main(demo=False):
         ok(f.get("url", "").startswith("https://www.elnuevodia.com/"), "enlace a la nota original")
         m2 = merge([f], [{**f, "card": [{"fight": "Nuevo Uno vs. Nuevo Dos", "title": False, "rounds": 6, "weight": ""}]}])
         ok(len(m2) == 1 and len(m2[0]["card"]) == 4, "otra nota de la misma cartelera junta las peleas")
+        other = {**f, "where": "Cancha Roger Mendoza, Caguas, Puerto Rico", "card": [{"fight": "Juanmita López vs. Jesús Pumita Ramírez", "title": False, "rounds": 8, "weight": ""}]}
+        m3 = merge([f], [other])
+        ok(len(m3) == 1 and m3[0]["title"] == "Juanmita López vs. Jesús Pumita Ramírez" and len(m3[0]["card"]) == 3 and m3[0]["where"].startswith("Coliseo"),
+           "misma cartelera con otro nombre de lugar: se junta y el rival reemplaza al '(rival por anunciar)'")
         return
     os.makedirs(ROOT, exist_ok=True)
     json.dump(data, open(OUT, "w"), ensure_ascii=False, indent=1)
