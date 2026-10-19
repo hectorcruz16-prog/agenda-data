@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T14:01:50+00:00",
+ "updated": "2026-10-19T00:13:06+00:00",
  "sources": {
   "espn": {
    "ok": true,
@@ -8,151 +8,10 @@
    "bytes": 9089,
    "schedule": true,
    "cards": 20,
-   "at": "2026-10-18T14:01:50+00:00"
+   "at": "2026-10-19T00:13:06+00:00"
   }
  },
  "fights": [
-  {
-   "date": "2026-10-17T00:00:00-04:00",
-   "timeValid": false,
-   "title": "Sebastian Fundora vs. Ermal Hadribeaj",
-   "where": "Las Vegas",
-   "channels": [
-    "DAZN",
-    "TNT"
-   ],
-   "channels_latam": [],
-   "weight": "superwélter",
-   "belts": [
-    "WBC"
-   ],
-   "titleFight": true,
-   "importance": 91,
-   "card": [
-    {
-     "fight": "Sebastian Fundora vs. Ermal Hadribeaj",
-     "title": true,
-     "rounds": 12,
-     "weight": "superwélter"
-    },
-    {
-     "fight": "Armando Resendiz vs. Koen Mazoudier",
-     "title": false,
-     "rounds": 10,
-     "weight": "supermediano"
-    },
-    {
-     "fight": "Jaime Enrique Osuna Diaz vs. Cristian Cangelosi",
-     "title": false,
-     "rounds": 8,
-     "weight": "mediano"
-    },
-    {
-     "fight": "Marco Romero vs. Braulio Matias Ferreira",
-     "title": false,
-     "rounds": 8,
-     "weight": "supermediano"
-    },
-    {
-     "fight": "David Garcia vs. Angel Carrillo",
-     "title": false,
-     "rounds": 6,
-     "weight": "pluma"
-    }
-   ],
-   "source": "ESPN"
-  },
-  {
-   "date": "2026-10-17T00:00:00-04:00",
-   "timeValid": false,
-   "title": "Daniel Dubois vs. Fabio Wardley",
-   "where": "London",
-   "channels": [
-    "DAZN"
-   ],
-   "channels_latam": [],
-   "weight": "pesado",
-   "belts": [
-    "WBO"
-   ],
-   "titleFight": true,
-   "importance": 91,
-   "card": [
-    {
-     "fight": "Daniel Dubois vs. Fabio Wardley",
-     "title": true,
-     "rounds": 12,
-     "weight": "pesado"
-    },
-    {
-     "fight": "Louie O'Doherty vs. Michael Gomez Jr.",
-     "title": false,
-     "rounds": 12,
-     "weight": "ligero"
-    },
-    {
-     "fight": "Bakhodir Jalolov vs. Solomon Dacres",
-     "title": false,
-     "rounds": 10,
-     "weight": "pesado"
-    },
-    {
-     "fight": "Nelson Birchall vs. Levi Giles",
-     "title": false,
-     "rounds": 10,
-     "weight": "superpluma"
-    },
-    {
-     "fight": "Tony Curtis vs. Kerim Agius",
-     "title": false,
-     "rounds": 8,
-     "weight": "supermosca"
-    },
-    {
-     "fight": "Manny Safari vs. Jake Pollard",
-     "title": false,
-     "rounds": 6,
-     "weight": "pluma"
-    },
-    {
-     "fight": "Fawas Aborode vs. Rashid Omar",
-     "title": false,
-     "rounds": 6,
-     "weight": "ligero"
-    },
-    {
-     "fight": "Leighton Birchall vs. Alejandro Morales Chazaro",
-     "title": false,
-     "rounds": 6,
-     "weight": "pluma"
-    },
-    {
-     "fight": "Adam Olaniyan vs. Dan Garber",
-     "title": false,
-     "rounds": 4,
-     "weight": "pesado"
-    },
-    {
-     "fight": "Aaron Noriega vs. Leonardo Baez",
-     "title": false,
-     "rounds": 4,
-     "weight": "superpluma"
-    },
-    {
-     "fight": "Zayn Ahmed vs. Kasey Bradnum",
-     "title": false,
-     "rounds": 4,
-     "weight": "superpluma"
-    },
-    {
-     "fight": "Issiah Hamilton-Allen vs. Jensen Irving",
-     "title": false,
-     "rounds": 4,
-     "weight": "mediano"
-    }
-   ],
-   "source": "ESPN"
-  },
   {
    "date": "2026-10-24T00:00:00-04:00",
    "timeValid": false,
