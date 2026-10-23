@@ -1,14 +1,14 @@
 {
- "updated": "2026-10-22T15:18:16+00:00",
+ "updated": "2026-10-23T00:41:01+00:00",
  "sources": {
   "espn": {
    "ok": true,
-   "count": 20,
+   "count": 21,
    "http": 200,
-   "bytes": 9089,
+   "bytes": 9583,
    "schedule": true,
-   "cards": 20,
-   "at": "2026-10-22T15:18:16+00:00"
+   "cards": 21,
+   "at": "2026-10-23T00:41:01+00:00"
   }
  },
  "fights": [
@@ -634,6 +634,58 @@
      "title": true,
      "rounds": 12,
      "weight": "supermosca"
+    }
+   ],
+   "source": "ESPN"
+  },
+  {
+   "date": "2026-12-05T00:00:00-04:00",
+   "timeValid": false,
+   "title": "David Benavidez vs. Michal Cieslak",
+   "where": "Glendale, Arizona",
+   "channels": [
+    "DAZN",
+    "Prime Video PPV"
+   ],
+   "channels_latam": [],
+   "weight": "crucero",
+   "belts": [
+    "WBA",
+    "WBC",
+    "WBO"
+   ],
+   "titleFight": true,
+   "importance": 100,
+   "card": [
+    {
+     "fight": "David Benavidez vs. Michal Cieslak",
+     "title": true,
+     "rounds": 12,
+     "weight": "crucero"
+    },
+    {
+     "fight": "Vergil Ortiz Jr. vs. Keith Thurman",
+     "title": false,
+     "rounds": 12,
+     "weight": "mediano"
+    },
+    {
+     "fight": "Emiliano Vargas vs. TBA",
+     "title": false,
+     "rounds": 10,
+     "weight": "superligero"
+    },
+    {
+     "fight": "Marco Romero vs. TBA",
+     "title": false,
+     "rounds": 8,
+     "weight": "mediano"
+    },
+    {
+     "fight": "Nikita Tszyu vs. TBA",
+     "title": false,
+     "rounds": 8,
+     "weight": "superwélter"
     }
    ],
    "source": "ESPN"
