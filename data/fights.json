@@ -1,14 +1,14 @@
 {
- "updated": "2026-10-23T00:41:01+00:00",
+ "updated": "2026-10-23T15:06:10+00:00",
  "sources": {
   "espn": {
    "ok": true,
-   "count": 21,
+   "count": 22,
    "http": 200,
-   "bytes": 9583,
+   "bytes": 9744,
    "schedule": true,
-   "cards": 21,
-   "at": "2026-10-23T00:41:01+00:00"
+   "cards": 22,
+   "at": "2026-10-23T15:06:10+00:00"
   }
  },
  "fights": [
@@ -786,6 +786,31 @@
     {
      "fight": "Anthony Cacace vs. Nick Ball",
      "title": true,
+     "rounds": 12,
+     "weight": "superpluma"
+    }
+   ],
+   "source": "ESPN"
+  },
+  {
+   "date": "2027-01-09T00:00:00-04:00",
+   "timeValid": false,
+   "title": "Ryan Garner vs. James Dickens",
+   "where": "Bournemouth, England",
+   "channels": [
+    "DAZN"
+   ],
+   "channels_latam": [],
+   "weight": "superpluma",
+   "belts": [
+    "WBC"
+   ],
+   "titleFight": false,
+   "importance": 45,
+   "card": [
+    {
+     "fight": "Ryan Garner vs. James Dickens",
+     "title": false,
      "rounds": 12,
      "weight": "superpluma"
     }
