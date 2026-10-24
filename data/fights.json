@@ -1,14 +1,14 @@
 {
- "updated": "2026-10-23T15:06:10+00:00",
+ "updated": "2026-10-24T00:43:51+00:00",
  "sources": {
   "espn": {
    "ok": true,
    "count": 22,
    "http": 200,
-   "bytes": 9744,
+   "bytes": 10111,
    "schedule": true,
    "cards": 22,
-   "at": "2026-10-23T15:06:10+00:00"
+   "at": "2026-10-24T00:43:51+00:00"
   }
  },
  "fights": [
@@ -104,16 +104,46 @@
      "weight": "superpluma"
     },
     {
+     "fight": "Albert Gonzalez vs. Edward Vazquez",
+     "title": false,
+     "rounds": 10,
+     "weight": "pluma"
+    },
+    {
      "fight": "Frank Martin vs. Tarik Zaina",
      "title": false,
      "rounds": 10,
      "weight": "superligero"
     },
     {
-     "fight": "Albert Gonzalez vs. Edward Vazquez",
+     "fight": "Steven Navarro vs. Emanuel Moreno",
      "title": false,
      "rounds": 10,
-     "weight": "pluma"
+     "weight": "gallo"
+    },
+    {
+     "fight": "Deric Davis vs. Joaquin Silva Faccio",
+     "title": false,
+     "rounds": 8,
+     "weight": "ligero"
+    },
+    {
+     "fight": "amuel Contreras vs. Oscar Pedroza Padilla",
+     "title": false,
+     "rounds": 6,
+     "weight": "ligero"
+    },
+    {
+     "fight": "Daniel III Cortez vs. Joshua Montoya",
+     "title": false,
+     "rounds": 6,
+     "weight": "supergallo"
+    },
+    {
+     "fight": "Joseph Almajdi vs. Miqal Dolphus",
+     "title": false,
+     "rounds": 6,
+     "weight": "superwélter"
     }
    ],
    "source": "ESPN"
