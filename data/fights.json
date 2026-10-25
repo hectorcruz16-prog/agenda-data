@@ -1,14 +1,14 @@
 {
- "updated": "2026-10-24T14:01:31+00:00",
+ "updated": "2026-10-25T00:20:49+00:00",
  "sources": {
   "espn": {
    "ok": true,
    "count": 22,
    "http": 200,
-   "bytes": 10111,
+   "bytes": 10114,
    "schedule": true,
    "cards": 22,
-   "at": "2026-10-24T14:01:31+00:00"
+   "at": "2026-10-25T00:20:49+00:00"
   }
  },
  "fights": [
@@ -128,7 +128,7 @@
      "weight": "ligero"
     },
     {
-     "fight": "amuel Contreras vs. Oscar Pedroza Padilla",
+     "fight": "Samuel Contreras vs. Oscar Pedroza Padilla",
      "title": false,
      "rounds": 6,
      "weight": "ligero"
@@ -177,7 +177,7 @@
      "weight": "supermediano"
     },
     {
-     "fight": "Rafael Espinoza vs. Lorenzo Parra",
+     "fight": "Rafael Espinoza vs. Ricardo Blandon",
      "title": true,
      "rounds": 12,
      "weight": "pluma"
