@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T14:23:34+00:00",
+ "updated": "2026-10-26T00:24:01+00:00",
  "sources": {
   "espn": {
    "ok": true,
@@ -8,146 +8,10 @@
    "bytes": 8765,
    "schedule": true,
    "cards": 20,
-   "at": "2026-10-25T14:23:34+00:00"
+   "at": "2026-10-26T00:24:01+00:00"
   }
  },
  "fights": [
-  {
-   "date": "2026-10-24T00:00:00-04:00",
-   "timeValid": false,
-   "title": "Dalton Smith vs. Alberto Puello",
-   "where": "Sheffield, England",
-   "channels": [
-    "DAZN"
-   ],
-   "channels_latam": [],
-   "weight": "superligero",
-   "belts": [
-    "WBC"
-   ],
-   "titleFight": true,
-   "importance": 69,
-   "card": [
-    {
-     "fight": "Dalton Smith vs. Alberto Puello",
-     "title": true,
-     "rounds": 12,
-     "weight": "superligero"
-    },
-    {
-     "fight": "Giorgio Visioli vs. Maxi Hughes",
-     "title": false,
-     "rounds": 10,
-     "weight": "ligero"
-    },
-    {
-     "fight": "Shannon Ryan vs. Emma Dolan",
-     "title": false,
-     "rounds": 10,
-     "weight": "femenino supermosca"
-    },
-    {
-     "fight": "Edward Hardy vs. Ibrahim Nadim",
-     "title": false,
-     "rounds": 10,
-     "weight": "superpluma"
-    },
-    {
-     "fight": "Aqib Fiaz vs. Jordan Flynn",
-     "title": false,
-     "rounds": 10,
-     "weight": "superpluma"
-    },
-    {
-     "fight": "Joe Hayden vs. Will Harrison",
-     "title": false,
-     "rounds": 8,
-     "weight": "wélter"
-    },
-    {
-     "fight": "Leo Atang vs. TBA",
-     "title": false,
-     "rounds": 6,
-     "weight": "pesado"
-    },
-    {
-     "fight": "Chris Mulunda vs. TBA",
-     "title": false,
-     "rounds": 4,
-     "weight": "mediano"
-    }
-   ],
-   "source": "ESPN"
-  },
-  {
-   "date": "2026-10-24T00:00:00-04:00",
-   "timeValid": false,
-   "title": "Emanuel Navarrete vs. O'Shaquie Foster",
-   "where": "San Antonio",
-   "channels": [
-    "DAZN"
-   ],
-   "channels_latam": [],
-   "weight": "superpluma",
-   "belts": [
-    "IBF",
-    "WBC",
-    "WBO"
-   ],
-   "titleFight": true,
-   "importance": 97,
-   "card": [
-    {
-     "fight": "Emanuel Navarrete vs. O'Shaquie Foster",
-     "title": true,
-     "rounds": 12,
-     "weight": "superpluma"
-    },
-    {
-     "fight": "Albert Gonzalez vs. Edward Vazquez",
-     "title": false,
-     "rounds": 10,
-     "weight": "pluma"
-    },
-    {
-     "fight": "Frank Martin vs. Tarik Zaina",
-     "title": false,
-     "rounds": 10,
-     "weight": "superligero"
-    },
-    {
-     "fight": "Steven Navarro vs. Emanuel Moreno",
-     "title": false,
-     "rounds": 10,
-     "weight": "gallo"
-    },
-    {
-     "fight": "Deric Davis vs. Joaquin Silva Faccio",
-     "title": false,
-     "rounds": 8,
-     "weight": "ligero"
-    },
-    {
-     "fight": "Samuel Contreras vs. Oscar Pedroza Padilla",
-     "title": false,
-     "rounds": 6,
-     "weight": "ligero"
-    },
-    {
-     "fight": "Daniel III Cortez vs. Joshua Montoya",
-     "title": false,
-     "rounds": 6,
-     "weight": "supergallo"
-    },
-    {
-     "fight": "Joseph Almajdi vs. Miqal Dolphus",
-     "title": false,
-     "rounds": 6,
-     "weight": "superwélter"
-    }
-   ],
-   "source": "ESPN"
-  },
   {
    "date": "2026-10-31T00:00:00-04:00",
    "timeValid": false,
