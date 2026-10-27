@@ -1,14 +1,14 @@
 {
- "updated": "2026-10-27T01:29:27+00:00",
+ "updated": "2026-10-27T15:53:38+00:00",
  "sources": {
   "espn": {
    "ok": true,
    "count": 20,
    "http": 200,
-   "bytes": 8765,
+   "bytes": 8639,
    "schedule": true,
    "cards": 20,
-   "at": "2026-10-27T01:29:27+00:00"
+   "at": "2026-10-27T15:53:38+00:00"
   }
  },
  "fights": [
@@ -45,12 +45,6 @@
      "title": true,
      "rounds": 12,
      "weight": "pluma"
-    },
-    {
-     "fight": "Lindolfo Delgado vs. Arthur Biyarslanov",
-     "title": true,
-     "rounds": 12,
-     "weight": "superligero"
     },
     {
      "fight": "David Picasso vs. Carl Jammes Martin",
