@@ -1,14 +1,14 @@
 {
- "updated": "2026-10-28T01:24:18+00:00",
+ "updated": "2026-10-28T16:38:59+00:00",
  "sources": {
   "espn": {
    "ok": true,
-   "count": 20,
+   "count": 21,
    "http": 200,
-   "bytes": 8639,
+   "bytes": 9139,
    "schedule": true,
-   "cards": 20,
-   "at": "2026-10-28T01:24:18+00:00"
+   "cards": 21,
+   "at": "2026-10-28T16:38:59+00:00"
   }
  },
  "fights": [
@@ -56,6 +56,30 @@
      "fight": "Reito Tsutsumi vs. Raymundo Rojas Garcia",
      "title": false,
      "rounds": 10,
+     "weight": "superpluma"
+    },
+    {
+     "fight": "Bek Nurmaganbet vs. Marcos Vazquez Rodriguez",
+     "title": false,
+     "rounds": 10,
+     "weight": "supermediano"
+    },
+    {
+     "fight": "Brayan Leon vs. Hector Aguirre",
+     "title": false,
+     "rounds": 8,
+     "weight": "supermediano"
+    },
+    {
+     "fight": "Emiliano Rojo vs. Flavius Biea",
+     "title": false,
+     "rounds": 8,
+     "weight": "mediano"
+    },
+    {
+     "fight": "Sultan Almohammed vs. Erick Jahir Urvina Villegas",
+     "title": false,
+     "rounds": 6,
      "weight": "superpluma"
     }
    ],
@@ -676,6 +700,32 @@
      "title": true,
      "rounds": 12,
      "weight": "superpluma"
+    }
+   ],
+   "source": "ESPN"
+  },
+  {
+   "date": "2027-01-09T00:00:00-04:00",
+   "timeValid": false,
+   "title": "Amanda Serrano vs. Skye Falzon",
+   "where": "San Juan, Puerto Rico",
+   "channels": [
+    "DAZN"
+   ],
+   "channels_latam": [],
+   "weight": "femenino pluma",
+   "belts": [
+    "WBA",
+    "WBO"
+   ],
+   "titleFight": true,
+   "importance": 97,
+   "card": [
+    {
+     "fight": "Amanda Serrano vs. Skye Falzon",
+     "title": true,
+     "rounds": 12,
+     "weight": "femenino pluma"
     }
    ],
    "source": "ESPN"
