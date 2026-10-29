@@ -1,14 +1,14 @@
 {
- "updated": "2026-10-29T01:48:45+00:00",
+ "updated": "2026-10-29T16:56:18+00:00",
  "sources": {
   "espn": {
    "ok": true,
-   "count": 21,
+   "count": 22,
    "http": 200,
-   "bytes": 9139,
+   "bytes": 9252,
    "schedule": true,
-   "cards": 21,
-   "at": "2026-10-29T01:48:45+00:00"
+   "cards": 22,
+   "at": "2026-10-29T16:56:18+00:00"
   }
  },
  "fights": [
@@ -700,6 +700,27 @@
      "title": true,
      "rounds": 12,
      "weight": "superpluma"
+    }
+   ],
+   "source": "ESPN"
+  },
+  {
+   "date": "2026-12-24T00:00:00-04:00",
+   "timeValid": false,
+   "title": "Jake Paul vs. TBA",
+   "where": "Dubai, United Arab Emirates",
+   "channels": [],
+   "channels_latam": [],
+   "weight": "crucero",
+   "belts": [],
+   "titleFight": false,
+   "importance": 67,
+   "card": [
+    {
+     "fight": "Jake Paul vs. TBA",
+     "title": false,
+     "rounds": 8,
+     "weight": "crucero"
     }
    ],
    "source": "ESPN"
