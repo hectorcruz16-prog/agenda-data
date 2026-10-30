@@ -1,14 +1,14 @@
 {
- "updated": "2026-10-30T01:57:59+00:00",
+ "updated": "2026-10-30T16:42:40+00:00",
  "sources": {
   "espn": {
    "ok": true,
-   "count": 22,
+   "count": 23,
    "http": 200,
-   "bytes": 9252,
+   "bytes": 9792,
    "schedule": true,
-   "cards": 22,
-   "at": "2026-10-30T01:57:59+00:00"
+   "cards": 23,
+   "at": "2026-10-30T16:42:40+00:00"
   }
  },
  "fights": [
@@ -316,6 +316,65 @@
      "title": false,
      "rounds": 4,
      "weight": "supermediano"
+    }
+   ],
+   "source": "ESPN"
+  },
+  {
+   "date": "2026-11-14T00:00:00-04:00",
+   "timeValid": false,
+   "title": "Carlos Adames vs. Gerome Warburton",
+   "where": "Riyadh, Saudi Arabia",
+   "channels": [
+    "Paramount+"
+   ],
+   "channels_latam": [],
+   "weight": "supermediano",
+   "belts": [],
+   "titleFight": false,
+   "importance": 45,
+   "card": [
+    {
+     "fight": "Carlos Adames vs. Gerome Warburton",
+     "title": false,
+     "rounds": 10,
+     "weight": "supermediano"
+    },
+    {
+     "fight": "Jason Moloney vs. Andres Teran",
+     "title": false,
+     "rounds": 10,
+     "weight": "gallo"
+    },
+    {
+     "fight": "Bruno Surace vs. Kamil Bednarek",
+     "title": false,
+     "rounds": 10,
+     "weight": "supermediano"
+    },
+    {
+     "fight": "Radzhab Butaev vs. Alexander Castro",
+     "title": false,
+     "rounds": 10,
+     "weight": "mediano"
+    },
+    {
+     "fight": "Ivan Ortiz vs. Dariial Kuchmenov",
+     "title": false,
+     "rounds": 8,
+     "weight": "ligero"
+    },
+    {
+     "fight": "Jakhongir Zokirov vs. TBA",
+     "title": false,
+     "rounds": 4,
+     "weight": "pesado"
+    },
+    {
+     "fight": "Tullo Boymatov vs. TBA",
+     "title": false,
+     "rounds": 4,
+     "weight": "semipesado"
     }
    ],
    "source": "ESPN"
