@@ -1,14 +1,14 @@
 {
- "updated": "2026-10-30T16:42:40+00:00",
+ "updated": "2026-10-31T01:36:35+00:00",
  "sources": {
   "espn": {
    "ok": true,
    "count": 23,
    "http": 200,
-   "bytes": 9792,
+   "bytes": 9754,
    "schedule": true,
    "cards": 23,
-   "at": "2026-10-30T16:42:40+00:00"
+   "at": "2026-10-31T01:36:35+00:00"
   }
  },
  "fights": [
@@ -47,21 +47,33 @@
      "weight": "pluma"
     },
     {
-     "fight": "David Picasso vs. Carl Jammes Martin",
-     "title": false,
-     "rounds": 12,
-     "weight": "supergallo"
-    },
-    {
-     "fight": "Reito Tsutsumi vs. Raymundo Rojas Garcia",
+     "fight": "Reito Tsutsumi vs. Raymundo Rojas",
      "title": false,
      "rounds": 10,
      "weight": "superpluma"
     },
     {
-     "fight": "Bek Nurmaganbet vs. Marcos Vazquez Rodriguez",
+     "fight": "David Picasso vs. Carl Jammes Martin",
      "title": false,
      "rounds": 10,
+     "weight": "pluma"
+    },
+    {
+     "fight": "Erick Villegas vs. Sultan Almohammed",
+     "title": false,
+     "rounds": 6,
+     "weight": "ligero"
+    },
+    {
+     "fight": "Marcos Vazquez vs. Bek Nurmaganbet",
+     "title": false,
+     "rounds": 10,
+     "weight": "semipesado"
+    },
+    {
+     "fight": "Emiliano Rojo vs. Flavius Biea",
+     "title": false,
+     "rounds": 8,
      "weight": "supermediano"
     },
     {
@@ -69,18 +81,6 @@
      "title": false,
      "rounds": 8,
      "weight": "supermediano"
-    },
-    {
-     "fight": "Emiliano Rojo vs. Flavius Biea",
-     "title": false,
-     "rounds": 8,
-     "weight": "mediano"
-    },
-    {
-     "fight": "Sultan Almohammed vs. Erick Jahir Urvina Villegas",
-     "title": false,
-     "rounds": 6,
-     "weight": "superpluma"
     }
    ],
    "source": "ESPN"
