@@ -1,14 +1,14 @@
 {
- "updated": "2026-10-31T01:36:35+00:00",
+ "updated": "2026-10-31T15:44:41+00:00",
  "sources": {
   "espn": {
    "ok": true,
    "count": 23,
    "http": 200,
-   "bytes": 9754,
+   "bytes": 10269,
    "schedule": true,
    "cards": 23,
-   "at": "2026-10-31T01:36:35+00:00"
+   "at": "2026-10-31T15:44:41+00:00"
   }
  },
  "fights": [
@@ -143,18 +143,6 @@
      "weight": "mediano"
     },
     {
-     "fight": "Zach Parker vs. Umar Dzambekov",
-     "title": false,
-     "rounds": 10,
-     "weight": "semipesado"
-    },
-    {
-     "fight": "Lucas Roehrig vs. Connal McDonald",
-     "title": false,
-     "rounds": 8,
-     "weight": "crucero"
-    },
-    {
      "fight": "Da'Mazion Vanhouter vs. Ivan Balaz",
      "title": false,
      "rounds": 8,
@@ -165,6 +153,36 @@
      "title": false,
      "rounds": 8,
      "weight": "mediano"
+    },
+    {
+     "fight": "Kayla Allen vs. Julia Igel",
+     "title": false,
+     "rounds": 6,
+     "weight": "femenino superligero"
+    },
+    {
+     "fight": "Lucas Roehrig vs. Connal McDonald",
+     "title": false,
+     "rounds": 8,
+     "weight": "crucero"
+    },
+    {
+     "fight": "Zach Parker vs. Umar Dzambekov",
+     "title": false,
+     "rounds": 10,
+     "weight": "semipesado"
+    },
+    {
+     "fight": "Vinnie Kemp vs. TBA",
+     "title": false,
+     "rounds": 4,
+     "weight": "mediano"
+    },
+    {
+     "fight": "Masood Abdulah vs. Adan Palma",
+     "title": false,
+     "rounds": 8,
+     "weight": "pluma"
     }
    ],
    "source": "ESPN"
