@@ -1,14 +1,14 @@
 {
- "updated": "2026-11-02T01:30:16+00:00",
+ "updated": "2026-11-02T20:22:48+00:00",
  "sources": {
   "espn": {
    "ok": true,
-   "count": 22,
+   "count": 23,
    "http": 200,
-   "bytes": 8884,
+   "bytes": 9666,
    "schedule": true,
-   "cards": 22,
-   "at": "2026-11-02T01:30:16+00:00"
+   "cards": 23,
+   "at": "2026-11-02T20:22:48+00:00"
   }
  },
  "fights": [
@@ -39,6 +39,60 @@
      "title": false,
      "rounds": 12,
      "weight": "wélter"
+    },
+    {
+     "fight": "Zak Miller vs. Gully Powar",
+     "title": false,
+     "rounds": 12,
+     "weight": "pluma"
+    },
+    {
+     "fight": "Bradley Rea vs. Ezra Taylor",
+     "title": false,
+     "rounds": 10,
+     "weight": "semipesado"
+    },
+    {
+     "fight": "Stephen Clarke vs. Harley Collison",
+     "title": false,
+     "rounds": 8,
+     "weight": "mediano"
+    },
+    {
+     "fight": "John Joe Carrigan vs. Cheikh Diop",
+     "title": false,
+     "rounds": 6,
+     "weight": "superwélter"
+    },
+    {
+     "fight": "Javokhir Ummataliev vs. Atacayte Santana",
+     "title": false,
+     "rounds": 6,
+     "weight": "supermediano"
+    },
+    {
+     "fight": "Billy Deniz vs. Joe O'Sullivan",
+     "title": false,
+     "rounds": 6,
+     "weight": "semipesado"
+    },
+    {
+     "fight": "Tumi Phillips vs. Angelo Dragone",
+     "title": false,
+     "rounds": 6,
+     "weight": "superligero"
+    },
+    {
+     "fight": "Ryan Macmillan vs. Grant Dennis",
+     "title": false,
+     "rounds": 6,
+     "weight": "semipesado"
+    },
+    {
+     "fight": "Alex Arthur Jr. vs. Jose Aguirre",
+     "title": false,
+     "rounds": 6,
+     "weight": "supermediano"
     }
    ],
    "source": "ESPN"
@@ -555,6 +609,29 @@
    "source": "ESPN"
   },
   {
+   "date": "2026-12-04T00:00:00-04:00",
+   "timeValid": false,
+   "title": "Adam Azim vs. Gabriel Gollaz Valenzuela",
+   "where": "London",
+   "channels": [
+    "DAZN"
+   ],
+   "channels_latam": [],
+   "weight": "superligero",
+   "belts": [],
+   "titleFight": false,
+   "importance": 45,
+   "card": [
+    {
+     "fight": "Adam Azim vs. Gabriel Gollaz Valenzuela",
+     "title": false,
+     "rounds": 12,
+     "weight": "superligero"
+    }
+   ],
+   "source": "ESPN"
+  },
+  {
    "date": "2026-12-05T00:00:00-04:00",
    "timeValid": false,
    "title": "David Benavidez vs. Michal Cieslak",
@@ -704,6 +781,27 @@
      "title": true,
      "rounds": 12,
      "weight": "superpluma"
+    }
+   ],
+   "source": "ESPN"
+  },
+  {
+   "date": "2026-12-24T00:00:00-04:00",
+   "timeValid": false,
+   "title": "Jake Paul vs. Cédric Doumbé",
+   "where": "Dubai, United Arab Emirates",
+   "channels": [],
+   "channels_latam": [],
+   "weight": "crucero",
+   "belts": [],
+   "titleFight": false,
+   "importance": 67,
+   "card": [
+    {
+     "fight": "Jake Paul vs. Cédric Doumbé",
+     "title": false,
+     "rounds": 8,
+     "weight": "crucero"
     }
    ],
    "source": "ESPN"
