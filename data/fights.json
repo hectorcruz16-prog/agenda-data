@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T16:48:58+00:00",
+ "updated": "2026-11-02T01:30:16+00:00",
  "sources": {
   "espn": {
    "ok": true,
@@ -8,83 +8,10 @@
    "bytes": 8884,
    "schedule": true,
    "cards": 22,
-   "at": "2026-11-01T16:48:58+00:00"
+   "at": "2026-11-02T01:30:16+00:00"
   }
  },
  "fights": [
-  {
-   "date": "2026-10-31T00:00:00-04:00",
-   "timeValid": false,
-   "title": "Canelo Alvarez vs. Christian Mbilli",
-   "where": "Riyadh, Saudi Arabia",
-   "channels": [
-    "DAZN PPV"
-   ],
-   "channels_latam": [],
-   "weight": "supermediano",
-   "belts": [
-    "WBC"
-   ],
-   "titleFight": true,
-   "importance": 100,
-   "card": [
-    {
-     "fight": "Canelo Alvarez vs. Christian Mbilli",
-     "title": true,
-     "rounds": 12,
-     "weight": "supermediano"
-    },
-    {
-     "fight": "Jaime Munguia vs. Nikita Zon",
-     "title": true,
-     "rounds": 12,
-     "weight": "supermediano"
-    },
-    {
-     "fight": "Rafael Espinoza vs. Ricardo Blandon",
-     "title": true,
-     "rounds": 12,
-     "weight": "pluma"
-    },
-    {
-     "fight": "Reito Tsutsumi vs. Raymundo Rojas",
-     "title": false,
-     "rounds": 10,
-     "weight": "superpluma"
-    },
-    {
-     "fight": "David Picasso vs. Carl Jammes Martin",
-     "title": false,
-     "rounds": 10,
-     "weight": "pluma"
-    },
-    {
-     "fight": "Erick Villegas vs. Sultan Almohammed",
-     "title": false,
-     "rounds": 6,
-     "weight": "ligero"
-    },
-    {
-     "fight": "Marcos Vazquez vs. Bek Nurmaganbet",
-     "title": false,
-     "rounds": 10,
-     "weight": "semipesado"
-    },
-    {
-     "fight": "Emiliano Rojo vs. Flavius Biea",
-     "title": false,
-     "rounds": 8,
-     "weight": "supermediano"
-    },
-    {
-     "fight": "Brayan Leon vs. Hector Aguirre",
-     "title": false,
-     "rounds": 8,
-     "weight": "supermediano"
-    }
-   ],
-   "source": "ESPN"
-  },
   {
    "date": "2026-11-07T00:00:00-04:00",
    "timeValid": false,
