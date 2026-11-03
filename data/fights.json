@@ -1,14 +1,14 @@
 {
- "updated": "2026-11-02T20:22:48+00:00",
+ "updated": "2026-11-03T03:28:24+00:00",
  "sources": {
   "espn": {
    "ok": true,
    "count": 23,
    "http": 200,
-   "bytes": 9666,
+   "bytes": 9776,
    "schedule": true,
    "cards": 23,
-   "at": "2026-11-02T20:22:48+00:00"
+   "at": "2026-11-03T03:28:24+00:00"
   }
  },
  "fights": [
@@ -182,13 +182,19 @@
     "WBA"
    ],
    "titleFight": true,
-   "importance": 69,
+   "importance": 75,
    "card": [
     {
      "fight": "Abraham Perez vs. Yankiel Rivera",
      "title": true,
      "rounds": 12,
      "weight": "mosca"
+    },
+    {
+     "fight": "Pedro Taduran vs. Brandon Moreno",
+     "title": true,
+     "rounds": 12,
+     "weight": "mínimo"
     }
    ],
    "source": "ESPN"
