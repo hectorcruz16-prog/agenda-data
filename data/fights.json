@@ -1,14 +1,14 @@
 {
- "updated": "2026-11-03T03:28:24+00:00",
+ "updated": "2026-11-03T17:51:17+00:00",
  "sources": {
   "espn": {
    "ok": true,
    "count": 23,
    "http": 200,
-   "bytes": 9776,
+   "bytes": 10441,
    "schedule": true,
    "cards": 23,
-   "at": "2026-11-03T03:28:24+00:00"
+   "at": "2026-11-03T17:51:17+00:00"
   }
  },
  "fights": [
@@ -195,6 +195,48 @@
      "title": true,
      "rounds": 12,
      "weight": "mínimo"
+    },
+    {
+     "fight": "Atif Oberlton vs. Deon Nicholson",
+     "title": false,
+     "rounds": 10,
+     "weight": "semipesado"
+    },
+    {
+     "fight": "Pryce Taylor vs. Tsotne Rogava",
+     "title": false,
+     "rounds": 10,
+     "weight": "pesado"
+    },
+    {
+     "fight": "Josh Torres vs. Jose Luis Sanchez",
+     "title": false,
+     "rounds": 10,
+     "weight": "superwélter"
+    },
+    {
+     "fight": "Sardius Simmons vs. Cesar Navarro",
+     "title": false,
+     "rounds": 8,
+     "weight": "pesado"
+    },
+    {
+     "fight": "Jose Nieves vs. Bryan Santiago",
+     "title": false,
+     "rounds": 6,
+     "weight": "supermosca"
+    },
+    {
+     "fight": "Quentin DeLeon vs. Austin Lewis",
+     "title": false,
+     "rounds": 4,
+     "weight": "supermosca"
+    },
+    {
+     "fight": "Leroy Clark vs. Carl Brock Walker",
+     "title": false,
+     "rounds": 4,
+     "weight": "crucero"
     }
    ],
    "source": "ESPN"
@@ -213,19 +255,13 @@
     "IBF"
    ],
    "titleFight": true,
-   "importance": 89,
+   "importance": 81,
    "card": [
     {
      "fight": "Alycia Baumgardner vs. Elif Nur Turhan",
      "title": true,
      "rounds": 10,
      "weight": "femenino ligero"
-    },
-    {
-     "fight": "Irma Garcia vs. Nataly Delgado",
-     "title": true,
-     "rounds": 10,
-     "weight": "femenino supermosca"
     },
     {
      "fight": "Ramla Ali vs. Mikiah Kreps",
@@ -240,16 +276,22 @@
      "weight": "supergallo"
     },
     {
+     "fight": "Irma Garcia vs. Nataly Delgado",
+     "title": true,
+     "rounds": 10,
+     "weight": "femenino supermosca"
+    },
+    {
+     "fight": "Albina Maldozhanova vs. Kirstie Bavington",
+     "title": false,
+     "rounds": 4,
+     "weight": "femenino superligero"
+    },
+    {
      "fight": "Brittany Sims vs. Shera Mae Patricio",
      "title": true,
      "rounds": 10,
      "weight": "femenino gallo"
-    },
-    {
-     "fight": "Natalie Dove vs. Nayeli Rodriguez",
-     "title": false,
-     "rounds": 8,
-     "weight": "mosca"
     },
     {
      "fight": "Fernando Garcia vs. Alexander Castellano",
@@ -258,10 +300,22 @@
      "weight": "pluma"
     },
     {
+     "fight": "Natalie Dove vs. Nayeli Rodriguez",
+     "title": false,
+     "rounds": 8,
+     "weight": "mosca"
+    },
+    {
      "fight": "Javier Guerrero Cruz vs. Aiden Anderson",
      "title": false,
      "rounds": 6,
      "weight": "wélter"
+    },
+    {
+     "fight": "Jocelyn Camarillo vs. Nazarena Serra",
+     "title": false,
+     "rounds": 6,
+     "weight": "femenino mínimo"
     }
    ],
    "source": "ESPN"
