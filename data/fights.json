@@ -1,14 +1,14 @@
 {
- "updated": "2026-11-04T02:21:09+00:00",
+ "updated": "2026-11-04T17:59:18+00:00",
  "sources": {
   "espn": {
    "ok": true,
    "count": 25,
    "http": 200,
-   "bytes": 10776,
+   "bytes": 10841,
    "schedule": true,
    "cards": 25,
-   "at": "2026-11-04T02:21:09+00:00"
+   "at": "2026-11-04T17:59:18+00:00"
   }
  },
  "fights": [
@@ -785,6 +785,12 @@
     {
      "fight": "Tyson Fury vs. Anthony Joshua",
      "title": true,
+     "rounds": 12,
+     "weight": "pesado"
+    },
+    {
+     "fight": "Deontay Wilder vs. Jai Opetaia",
+     "title": false,
      "rounds": 12,
      "weight": "pesado"
     }
