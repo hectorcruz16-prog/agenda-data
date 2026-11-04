@@ -1,14 +1,14 @@
 {
- "updated": "2026-11-03T17:51:17+00:00",
+ "updated": "2026-11-04T02:21:09+00:00",
  "sources": {
   "espn": {
    "ok": true,
-   "count": 23,
+   "count": 25,
    "http": 200,
-   "bytes": 10441,
+   "bytes": 10776,
    "schedule": true,
-   "cards": 23,
-   "at": "2026-11-03T17:51:17+00:00"
+   "cards": 25,
+   "at": "2026-11-04T02:21:09+00:00"
   }
  },
  "fights": [
@@ -787,6 +787,68 @@
      "title": true,
      "rounds": 12,
      "weight": "pesado"
+    }
+   ],
+   "source": "ESPN"
+  },
+  {
+   "date": "2026-12-12T00:00:00-04:00",
+   "timeValid": false,
+   "title": "Dmitry Bivol vs. Callum Smith",
+   "where": "Yekaterinburg, Russia",
+   "channels": [],
+   "channels_latam": [],
+   "weight": "semipesado",
+   "belts": [
+    "IBF",
+    "WBA",
+    "WBO"
+   ],
+   "titleFight": true,
+   "importance": 97,
+   "card": [
+    {
+     "fight": "Dmitry Bivol vs. Callum Smith",
+     "title": true,
+     "rounds": 12,
+     "weight": "semipesado"
+    }
+   ],
+   "source": "ESPN"
+  },
+  {
+   "date": "2026-12-12T00:00:00-04:00",
+   "timeValid": false,
+   "title": "Erislandy Lara vs. Tim Tszyu",
+   "where": "Gold Coast, Australia",
+   "channels": [
+    "DAZN"
+   ],
+   "channels_latam": [],
+   "weight": "mediano",
+   "belts": [
+    "WBA"
+   ],
+   "titleFight": true,
+   "importance": 69,
+   "card": [
+    {
+     "fight": "Erislandy Lara vs. Tim Tszyu",
+     "title": true,
+     "rounds": 12,
+     "weight": "mediano"
+    },
+    {
+     "fight": "Jermell Charlo vs. Brock Jarvis",
+     "title": false,
+     "rounds": 10,
+     "weight": "mediano"
+    },
+    {
+     "fight": "Elnur Samedov vs. Liam Wilson",
+     "title": false,
+     "rounds": 12,
+     "weight": "superpluma"
     }
    ],
    "source": "ESPN"
