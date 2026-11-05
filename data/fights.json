@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T02:29:19+00:00",
+ "updated": "2026-11-05T18:02:21+00:00",
  "sources": {
   "espn": {
    "ok": true,
@@ -8,7 +8,7 @@
    "bytes": 10841,
    "schedule": true,
    "cards": 25,
-   "at": "2026-11-05T02:29:19+00:00"
+   "at": "2026-11-05T18:02:21+00:00"
   }
  },
  "fights": [
@@ -244,7 +244,7 @@
   {
    "date": "2026-11-08T00:00:00-04:00",
    "timeValid": false,
-   "title": "Alycia Baumgardner vs. Elif Nur Turhan",
+   "title": "Elif Nur Turhan vs. Alycia Baumgardner",
    "where": "Arlington, Texas",
    "channels": [
     "ESPN"
@@ -258,7 +258,7 @@
    "importance": 81,
    "card": [
     {
-     "fight": "Alycia Baumgardner vs. Elif Nur Turhan",
+     "fight": "Elif Nur Turhan vs. Alycia Baumgardner",
      "title": true,
      "rounds": 10,
      "weight": "femenino ligero"
