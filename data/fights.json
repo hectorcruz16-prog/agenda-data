@@ -1,14 +1,14 @@
 {
- "updated": "2026-11-05T18:02:21+00:00",
+ "updated": "2026-11-06T02:28:47+00:00",
  "sources": {
   "espn": {
    "ok": true,
-   "count": 25,
+   "count": 26,
    "http": 200,
-   "bytes": 10841,
+   "bytes": 11889,
    "schedule": true,
-   "cards": 25,
-   "at": "2026-11-05T18:02:21+00:00"
+   "cards": 26,
+   "at": "2026-11-06T02:28:47+00:00"
   }
  },
  "fights": [
@@ -515,6 +515,42 @@
      "title": false,
      "rounds": 10,
      "weight": "superwélter"
+    },
+    {
+     "fight": "Hasna Tebsi vs. Sacha Morice",
+     "title": false,
+     "rounds": 10,
+     "weight": "femenino pluma"
+    },
+    {
+     "fight": "Mustapha Zaouche vs. Mbemba Miesi",
+     "title": false,
+     "rounds": 10,
+     "weight": "semipesado"
+    },
+    {
+     "fight": "Henry Lontchedji vs. James Londiniere",
+     "title": false,
+     "rounds": 6,
+     "weight": "wélter"
+    },
+    {
+     "fight": "Axel Yoka vs. Pedro Cuca",
+     "title": false,
+     "rounds": 6,
+     "weight": "supermediano"
+    },
+    {
+     "fight": "Kpassagnon Boli vs. Tamaz Berikashvili",
+     "title": false,
+     "rounds": 6,
+     "weight": "mediano"
+    },
+    {
+     "fight": "Morad Maizou vs. Luka Barnovi",
+     "title": false,
+     "rounds": 6,
+     "weight": "superpluma"
     }
    ],
    "source": "ESPN"
@@ -538,6 +574,30 @@
      "title": false,
      "rounds": 10,
      "weight": "pesado"
+    },
+    {
+     "fight": "Joel Camilleri vs. Mitchell Leek",
+     "title": false,
+     "rounds": 10,
+     "weight": "mediano"
+    },
+    {
+     "fight": "Ky Hodgson vs. Victor Adis-Iosifidis",
+     "title": false,
+     "rounds": 10,
+     "weight": "superwélter"
+    },
+    {
+     "fight": "Omar El-Abdallah vs. Nicholas Benn",
+     "title": false,
+     "rounds": 8,
+     "weight": "supermediano"
+    },
+    {
+     "fight": "James Noonan vs. Matt Faron",
+     "title": false,
+     "rounds": 4,
+     "weight": "mediano"
     }
    ],
    "source": "ESPN"
@@ -565,15 +625,21 @@
      "weight": "femenino wélter"
     },
     {
+     "fight": "Willy Gilheaney vs. Alberto Ignacio Palmetta",
+     "title": false,
+     "rounds": 10,
+     "weight": "wélter"
+    },
+    {
      "fight": "Rhys Edwards vs. Lee McGregor",
      "title": false,
      "rounds": 10,
      "weight": "pluma"
     },
     {
-     "fight": "Kyran Jones vs. Sean Arkwright",
+     "fight": "Sean Arkwright vs. Jake Goodwin",
      "title": false,
-     "rounds": 10,
+     "rounds": 8,
      "weight": "mediano"
     }
    ],
@@ -884,6 +950,38 @@
      "title": false,
      "rounds": 12,
      "weight": "superpluma"
+    }
+   ],
+   "source": "ESPN"
+  },
+  {
+   "date": "2026-12-19T00:00:00-04:00",
+   "timeValid": false,
+   "title": "Devin Haney vs. Liam Paro",
+   "where": "San Francisco",
+   "channels": [
+    "DAZN"
+   ],
+   "channels_latam": [],
+   "weight": "wélter",
+   "belts": [
+    "IBF",
+    "WBO"
+   ],
+   "titleFight": true,
+   "importance": 97,
+   "card": [
+    {
+     "fight": "Devin Haney vs. Liam Paro",
+     "title": true,
+     "rounds": 12,
+     "weight": "wélter"
+    },
+    {
+     "fight": "Brian Norman Jr. vs. Abel Ramos",
+     "title": false,
+     "rounds": 10,
+     "weight": "wélter"
     }
    ],
    "source": "ESPN"
