@@ -1,14 +1,14 @@
 {
- "updated": "2026-11-06T02:28:47+00:00",
+ "updated": "2026-11-06T17:30:31+00:00",
  "sources": {
   "espn": {
    "ok": true,
    "count": 26,
    "http": 200,
-   "bytes": 11889,
+   "bytes": 12196,
    "schedule": true,
    "cards": 26,
-   "at": "2026-11-06T02:28:47+00:00"
+   "at": "2026-11-06T17:30:31+00:00"
   }
  },
  "fights": [
@@ -753,6 +753,30 @@
      "title": false,
      "rounds": 12,
      "weight": "superligero"
+    },
+    {
+     "fight": "Frazer Clarke vs. TBA",
+     "title": false,
+     "rounds": 10,
+     "weight": "pesado"
+    },
+    {
+     "fight": "Francesca Hennessy vs. Johanna Wonyou",
+     "title": false,
+     "rounds": 10,
+     "weight": ""
+    },
+    {
+     "fight": "Elliot Whale vs. Bobby Faulkner",
+     "title": false,
+     "rounds": 10,
+     "weight": "wélter"
+    },
+    {
+     "fight": "Hassan Azim vs. Ruben Torres",
+     "title": false,
+     "rounds": 6,
+     "weight": "superwélter"
     }
    ],
    "source": "ESPN"
