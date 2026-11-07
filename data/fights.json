@@ -1,14 +1,14 @@
 {
- "updated": "2026-11-06T17:30:31+00:00",
+ "updated": "2026-11-07T01:56:39+00:00",
  "sources": {
   "espn": {
    "ok": true,
-   "count": 26,
+   "count": 29,
    "http": 200,
-   "bytes": 12196,
+   "bytes": 13834,
    "schedule": true,
-   "cards": 26,
-   "at": "2026-11-06T17:30:31+00:00"
+   "cards": 30,
+   "at": "2026-11-07T01:56:39+00:00"
   }
  },
  "fights": [
@@ -316,6 +316,45 @@
      "title": false,
      "rounds": 6,
      "weight": "femenino mínimo"
+    }
+   ],
+   "source": "ESPN"
+  },
+  {
+   "date": "2026-11-12T00:00:00-04:00",
+   "timeValid": false,
+   "title": "Luis Nery vs. Sem Japet Enano",
+   "where": "Acapulco, Mexico",
+   "channels": [],
+   "channels_latam": [],
+   "weight": "pluma",
+   "belts": [],
+   "titleFight": false,
+   "importance": 51,
+   "card": [
+    {
+     "fight": "Luis Nery vs. Sem Japet Enano",
+     "title": false,
+     "rounds": 10,
+     "weight": "pluma"
+    },
+    {
+     "fight": "Camila Zamorano vs. Brenda Balderas Martinez",
+     "title": true,
+     "rounds": 10,
+     "weight": ""
+    },
+    {
+     "fight": "Jonathan Javier Fierro De Santiago vs. Sergio Martin Sosa",
+     "title": false,
+     "rounds": 10,
+     "weight": "superpluma"
+    },
+    {
+     "fight": "Esneidy Rodriguez Olmos vs. TBA",
+     "title": false,
+     "rounds": 10,
+     "weight": ""
     }
    ],
    "source": "ESPN"
@@ -675,6 +714,48 @@
    "source": "ESPN"
   },
   {
+   "date": "2026-11-21T00:00:00-04:00",
+   "timeValid": false,
+   "title": "Isabel Rivero vs. Sumire Yamanaka",
+   "where": "Illescas, Spain",
+   "channels": [],
+   "channels_latam": [],
+   "weight": "",
+   "belts": [
+    "IBF",
+    "WBA"
+   ],
+   "titleFight": true,
+   "importance": 75,
+   "card": [
+    {
+     "fight": "Isabel Rivero vs. Sumire Yamanaka",
+     "title": true,
+     "rounds": 10,
+     "weight": ""
+    },
+    {
+     "fight": "Jose Gabriel Carfunjol vs. Bernard Angelo Torres",
+     "title": false,
+     "rounds": 10,
+     "weight": "ligero"
+    },
+    {
+     "fight": "Sheila Martinez vs. Mayerlin Rivas",
+     "title": false,
+     "rounds": 10,
+     "weight": "femenino pluma"
+    },
+    {
+     "fight": "Cintia Sanchez vs. TBA",
+     "title": false,
+     "rounds": 8,
+     "weight": "femenino mínimo"
+    }
+   ],
+   "source": "ESPN"
+  },
+  {
    "date": "2026-11-28T00:00:00-04:00",
    "timeValid": false,
    "title": "Agit Kabayel vs. Nelson Hysa",
@@ -979,6 +1060,33 @@
    "source": "ESPN"
   },
   {
+   "date": "2026-12-12T00:00:00-04:00",
+   "timeValid": false,
+   "title": "Luis Alberto Lopez vs. Angel Daniel Garcia",
+   "where": "Kissimmee, Florida",
+   "channels": [],
+   "channels_latam": [],
+   "weight": "superpluma",
+   "belts": [],
+   "titleFight": false,
+   "importance": 67,
+   "card": [
+    {
+     "fight": "Luis Alberto Lopez vs. Angel Daniel Garcia",
+     "title": false,
+     "rounds": 10,
+     "weight": "superpluma"
+    },
+    {
+     "fight": "Dominic Valle vs. Frency Fortunato Saya",
+     "title": false,
+     "rounds": 10,
+     "weight": "ligero"
+    }
+   ],
+   "source": "ESPN"
+  },
+  {
    "date": "2026-12-19T00:00:00-04:00",
    "timeValid": false,
    "title": "Devin Haney vs. Liam Paro",
@@ -1031,6 +1139,30 @@
      "title": true,
      "rounds": 12,
      "weight": "superpluma"
+    },
+    {
+     "fight": "Lewis Crocker vs. Owen Cooper",
+     "title": false,
+     "rounds": 10,
+     "weight": "wélter"
+    },
+    {
+     "fight": "Henry Turner vs. Tyrone McKenna",
+     "title": false,
+     "rounds": 10,
+     "weight": "wélter"
+    },
+    {
+     "fight": "Steven Cairns vs. Josh Blenkiron",
+     "title": false,
+     "rounds": 10,
+     "weight": "ligero"
+    },
+    {
+     "fight": "Eoghan Lavin vs. Graham McCormack",
+     "title": false,
+     "rounds": 8,
+     "weight": "mediano"
     }
    ],
    "source": "ESPN"
