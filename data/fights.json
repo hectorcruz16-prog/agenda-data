@@ -1,17 +1,90 @@
 {
- "updated": "2026-11-07T16:27:55+00:00",
+ "updated": "2026-11-08T01:27:17+00:00",
  "sources": {
   "espn": {
    "ok": true,
-   "count": 29,
+   "count": 27,
    "http": 200,
-   "bytes": 13834,
+   "bytes": 12288,
    "schedule": true,
-   "cards": 30,
-   "at": "2026-11-07T16:27:55+00:00"
+   "cards": 28,
+   "at": "2026-11-08T01:27:17+00:00"
   }
  },
  "fights": [
+  {
+   "date": "2026-11-07T00:00:00-04:00",
+   "timeValid": false,
+   "title": "Abraham Perez vs. Yankiel Rivera",
+   "where": "Albuquerque, New Mexico",
+   "channels": [
+    "DAZN"
+   ],
+   "channels_latam": [],
+   "weight": "mosca",
+   "belts": [
+    "WBA"
+   ],
+   "titleFight": true,
+   "importance": 75,
+   "card": [
+    {
+     "fight": "Abraham Perez vs. Yankiel Rivera",
+     "title": true,
+     "rounds": 12,
+     "weight": "mosca"
+    },
+    {
+     "fight": "Pedro Taduran vs. Brandon Moreno",
+     "title": true,
+     "rounds": 12,
+     "weight": "mínimo"
+    },
+    {
+     "fight": "Atif Oberlton vs. Deon Nicholson",
+     "title": false,
+     "rounds": 10,
+     "weight": "semipesado"
+    },
+    {
+     "fight": "Pryce Taylor vs. Tsotne Rogava",
+     "title": false,
+     "rounds": 10,
+     "weight": "pesado"
+    },
+    {
+     "fight": "Josh Torres vs. Jose Luis Sanchez",
+     "title": false,
+     "rounds": 10,
+     "weight": "superwélter"
+    },
+    {
+     "fight": "Sardius Simmons vs. Cesar Navarro",
+     "title": false,
+     "rounds": 8,
+     "weight": "pesado"
+    },
+    {
+     "fight": "Jose Nieves vs. Bryan Santiago",
+     "title": false,
+     "rounds": 6,
+     "weight": "supermosca"
+    },
+    {
+     "fight": "Quentin DeLeon vs. Austin Lewis",
+     "title": false,
+     "rounds": 4,
+     "weight": "supermosca"
+    },
+    {
+     "fight": "Leroy Clark vs. Carl Brock Walker",
+     "title": false,
+     "rounds": 4,
+     "weight": "crucero"
+    }
+   ],
+   "source": "ESPN"
+  },
   {
    "date": "2026-11-07T00:00:00-04:00",
    "timeValid": false,
@@ -164,79 +237,6 @@
      "title": false,
      "rounds": 8,
      "weight": "pluma"
-    }
-   ],
-   "source": "ESPN"
-  },
-  {
-   "date": "2026-11-07T00:00:00-04:00",
-   "timeValid": false,
-   "title": "Abraham Perez vs. Yankiel Rivera",
-   "where": "Albuquerque, New Mexico",
-   "channels": [
-    "DAZN"
-   ],
-   "channels_latam": [],
-   "weight": "mosca",
-   "belts": [
-    "WBA"
-   ],
-   "titleFight": true,
-   "importance": 75,
-   "card": [
-    {
-     "fight": "Abraham Perez vs. Yankiel Rivera",
-     "title": true,
-     "rounds": 12,
-     "weight": "mosca"
-    },
-    {
-     "fight": "Pedro Taduran vs. Brandon Moreno",
-     "title": true,
-     "rounds": 12,
-     "weight": "mínimo"
-    },
-    {
-     "fight": "Atif Oberlton vs. Deon Nicholson",
-     "title": false,
-     "rounds": 10,
-     "weight": "semipesado"
-    },
-    {
-     "fight": "Pryce Taylor vs. Tsotne Rogava",
-     "title": false,
-     "rounds": 10,
-     "weight": "pesado"
-    },
-    {
-     "fight": "Josh Torres vs. Jose Luis Sanchez",
-     "title": false,
-     "rounds": 10,
-     "weight": "superwélter"
-    },
-    {
-     "fight": "Sardius Simmons vs. Cesar Navarro",
-     "title": false,
-     "rounds": 8,
-     "weight": "pesado"
-    },
-    {
-     "fight": "Jose Nieves vs. Bryan Santiago",
-     "title": false,
-     "rounds": 6,
-     "weight": "supermosca"
-    },
-    {
-     "fight": "Quentin DeLeon vs. Austin Lewis",
-     "title": false,
-     "rounds": 4,
-     "weight": "supermosca"
-    },
-    {
-     "fight": "Leroy Clark vs. Carl Brock Walker",
-     "title": false,
-     "rounds": 4,
-     "weight": "crucero"
     }
    ],
    "source": "ESPN"
