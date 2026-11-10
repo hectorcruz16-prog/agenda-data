@@ -1,14 +1,14 @@
 {
- "updated": "2026-11-10T04:08:03+00:00",
+ "updated": "2026-11-10T17:51:51+00:00",
  "sources": {
   "espn": {
    "ok": true,
-   "count": 25,
+   "count": 27,
    "http": 200,
-   "bytes": 10226,
+   "bytes": 10611,
    "schedule": true,
-   "cards": 26,
-   "at": "2026-11-10T04:08:03+00:00"
+   "cards": 28,
+   "at": "2026-11-10T17:51:51+00:00"
   }
  },
  "fights": [
@@ -443,6 +443,58 @@
      "title": false,
      "rounds": 8,
      "weight": "femenino mínimo"
+    }
+   ],
+   "source": "ESPN"
+  },
+  {
+   "date": "2026-11-26T00:00:00-04:00",
+   "timeValid": false,
+   "title": "Masamichi Yabuki vs. Miel Fajardo",
+   "where": "Tokyo, Japan",
+   "channels": [],
+   "channels_latam": [],
+   "weight": "mosca",
+   "belts": [
+    "IBF"
+   ],
+   "titleFight": true,
+   "importance": 69,
+   "card": [
+    {
+     "fight": "Masamichi Yabuki vs. Miel Fajardo",
+     "title": true,
+     "rounds": 12,
+     "weight": "mosca"
+    },
+    {
+     "fight": "Yoshiki Takei vs. Kenshin Oshima",
+     "title": false,
+     "rounds": 8,
+     "weight": "supergallo"
+    }
+   ],
+   "source": "ESPN"
+  },
+  {
+   "date": "2026-11-27T00:00:00-04:00",
+   "timeValid": false,
+   "title": "Andy Cruz vs. Artur Subkhankulov",
+   "where": "Ufa, Rusia",
+   "channels": [],
+   "channels_latam": [],
+   "weight": "ligero",
+   "belts": [
+    "IBF"
+   ],
+   "titleFight": true,
+   "importance": 69,
+   "card": [
+    {
+     "fight": "Andy Cruz vs. Artur Subkhankulov",
+     "title": true,
+     "rounds": 12,
+     "weight": "ligero"
     }
    ],
    "source": "ESPN"
