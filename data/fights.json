@@ -1,14 +1,14 @@
 {
- "updated": "2026-11-11T01:56:42+00:00",
+ "updated": "2026-11-11T17:54:59+00:00",
  "sources": {
   "espn": {
    "ok": true,
-   "count": 27,
+   "count": 28,
    "http": 200,
-   "bytes": 10717,
+   "bytes": 10867,
    "schedule": true,
-   "cards": 28,
-   "at": "2026-11-11T01:56:42+00:00"
+   "cards": 29,
+   "at": "2026-11-11T17:54:59+00:00"
   }
  },
  "fights": [
@@ -912,6 +912,35 @@
    "source": "ESPN"
   },
   {
+   "date": "2026-12-20T00:00:00-04:00",
+   "timeValid": false,
+   "title": "Jarrell Miller vs. Tony Yoka",
+   "where": "Accra, Ghana",
+   "channels": [
+    "DAZN"
+   ],
+   "channels_latam": [],
+   "weight": "pesado",
+   "belts": [],
+   "titleFight": false,
+   "importance": 45,
+   "card": [
+    {
+     "fight": "Jarrell Miller vs. Tony Yoka",
+     "title": false,
+     "rounds": 10,
+     "weight": "pesado"
+    },
+    {
+     "fight": "Odel Kamara vs. TBA",
+     "title": false,
+     "rounds": 4,
+     "weight": "superwélter"
+    }
+   ],
+   "source": "ESPN"
+  },
+  {
    "date": "2026-12-24T00:00:00-04:00",
    "timeValid": false,
    "title": "Jake Paul vs. Cédric Doumbé",
@@ -959,6 +988,7 @@
    "title": "Amanda Serrano vs. Skye Falzon",
    "where": "San Juan, Puerto Rico",
    "channels": [
+    "TNT",
     "DAZN"
    ],
    "channels_latam": [],
