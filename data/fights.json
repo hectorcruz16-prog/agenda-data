@@ -1,14 +1,14 @@
 {
- "updated": "2026-11-12T03:01:35+00:00",
+ "updated": "2026-11-12T18:20:18+00:00",
  "sources": {
   "espn": {
    "ok": true,
-   "count": 28,
+   "count": 29,
    "http": 200,
-   "bytes": 11092,
+   "bytes": 11234,
    "schedule": true,
    "cards": 30,
-   "at": "2026-11-12T03:01:35+00:00"
+   "at": "2026-11-12T18:20:18+00:00"
   }
  },
  "fights": [
@@ -708,6 +708,18 @@
      "title": false,
      "rounds": 12,
      "weight": "pesado"
+    },
+    {
+     "fight": "Martin Bakole vs. Solomon Adebayo",
+     "title": false,
+     "rounds": 10,
+     "weight": "pesado"
+    },
+    {
+     "fight": "Da'Mazion Vanhouter vs. Michael Essomba",
+     "title": false,
+     "rounds": 10,
+     "weight": "pesado"
     }
    ],
    "source": "ESPN"
@@ -1053,6 +1065,33 @@
      "title": true,
      "rounds": 12,
      "weight": "supermediano"
+    }
+   ],
+   "source": "ESPN"
+  },
+  {
+   "date": "2027-02-20T00:00:00-04:00",
+   "timeValid": false,
+   "title": "Caroline Dubois vs. Stephanie Han",
+   "where": "El Paso, Texas",
+   "channels": [
+    "ESPN"
+   ],
+   "channels_latam": [],
+   "weight": "femenino ligero",
+   "belts": [
+    "WBA",
+    "WBC",
+    "WBO"
+   ],
+   "titleFight": true,
+   "importance": 97,
+   "card": [
+    {
+     "fight": "Caroline Dubois vs. Stephanie Han",
+     "title": true,
+     "rounds": 10,
+     "weight": "femenino ligero"
     }
    ],
    "source": "ESPN"
