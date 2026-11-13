@@ -1,14 +1,14 @@
 {
- "updated": "2026-11-13T02:38:39+00:00",
+ "updated": "2026-11-13T17:45:16+00:00",
  "sources": {
   "espn": {
    "ok": true,
-   "count": 30,
+   "count": 28,
    "http": 200,
-   "bytes": 11365,
+   "bytes": 10711,
    "schedule": true,
-   "cards": 31,
-   "at": "2026-11-13T02:38:39+00:00"
+   "cards": 29,
+   "at": "2026-11-13T17:45:16+00:00"
   }
  },
  "fights": [
@@ -948,6 +948,45 @@
      "title": false,
      "rounds": 4,
      "weight": "superwélter"
+    }
+   ],
+   "source": "ESPN"
+  },
+  {
+   "date": "2026-12-24T00:00:00-04:00",
+   "timeValid": false,
+   "title": "Jake Paul vs. Cedric Doumbe",
+   "where": "Dubai, United Arab Emirates",
+   "channels": [],
+   "channels_latam": [],
+   "weight": "crucero",
+   "belts": [],
+   "titleFight": false,
+   "importance": 67,
+   "card": [
+    {
+     "fight": "Jake Paul vs. Cedric Doumbe",
+     "title": false,
+     "rounds": 8,
+     "weight": "crucero"
+    },
+    {
+     "fight": "Chantelle Cameron vs. Mikaela Mayer",
+     "title": false,
+     "rounds": 10,
+     "weight": "femenino superwélter"
+    },
+    {
+     "fight": "Alistair Overeem vs. Jimi Manuwa",
+     "title": false,
+     "rounds": 6,
+     "weight": "pesado"
+    },
+    {
+     "fight": "Jahmal Harvey vs. Craig Morgan",
+     "title": false,
+     "rounds": 8,
+     "weight": "ligero"
     }
    ],
    "source": "ESPN"
