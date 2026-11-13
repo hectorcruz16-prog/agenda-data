@@ -1,14 +1,14 @@
 {
- "updated": "2026-11-12T18:20:18+00:00",
+ "updated": "2026-11-13T02:38:39+00:00",
  "sources": {
   "espn": {
    "ok": true,
-   "count": 29,
+   "count": 30,
    "http": 200,
-   "bytes": 11234,
+   "bytes": 11365,
    "schedule": true,
-   "cards": 30,
-   "at": "2026-11-12T18:20:18+00:00"
+   "cards": 31,
+   "at": "2026-11-13T02:38:39+00:00"
   }
  },
  "fights": [
@@ -1042,6 +1042,29 @@
      "title": false,
      "rounds": 12,
      "weight": "superpluma"
+    }
+   ],
+   "source": "ESPN"
+  },
+  {
+   "date": "2027-01-23T00:00:00-04:00",
+   "timeValid": false,
+   "title": "Arnold Barboza Jr. vs. Oscar Duarte",
+   "where": "Anaheim, California",
+   "channels": [
+    "DAZN"
+   ],
+   "channels_latam": [],
+   "weight": "wélter",
+   "belts": [],
+   "titleFight": false,
+   "importance": 45,
+   "card": [
+    {
+     "fight": "Arnold Barboza Jr. vs. Oscar Duarte",
+     "title": false,
+     "rounds": 12,
+     "weight": "wélter"
     }
    ],
    "source": "ESPN"
