@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T17:45:16+00:00",
+ "updated": "2026-11-14T02:27:31+00:00",
  "sources": {
   "espn": {
    "ok": true,
@@ -8,108 +8,10 @@
    "bytes": 10711,
    "schedule": true,
    "cards": 29,
-   "at": "2026-11-13T17:45:16+00:00"
+   "at": "2026-11-14T02:27:31+00:00"
   }
  },
  "fights": [
-  {
-   "date": "2026-11-12T00:00:00-04:00",
-   "timeValid": false,
-   "title": "Luis Nery vs. Sem Japet Enano",
-   "where": "Acapulco, Mexico",
-   "channels": [],
-   "channels_latam": [],
-   "weight": "pluma",
-   "belts": [],
-   "titleFight": false,
-   "importance": 51,
-   "card": [
-    {
-     "fight": "Luis Nery vs. Sem Japet Enano",
-     "title": false,
-     "rounds": 10,
-     "weight": "pluma"
-    },
-    {
-     "fight": "Camila Zamorano vs. Brenda Balderas Martinez",
-     "title": true,
-     "rounds": 10,
-     "weight": ""
-    },
-    {
-     "fight": "Jonathan Javier Fierro De Santiago vs. Sergio Martin Sosa",
-     "title": false,
-     "rounds": 10,
-     "weight": "superpluma"
-    },
-    {
-     "fight": "Esneidy Rodriguez Olmos vs. TBA",
-     "title": false,
-     "rounds": 10,
-     "weight": ""
-    }
-   ],
-   "source": "ESPN"
-  },
-  {
-   "date": "2026-11-12T00:00:00-04:00",
-   "timeValid": false,
-   "title": "Steven Butler vs. Erik Bazinyan",
-   "where": "Montreal",
-   "channels": [
-    "DAZN"
-   ],
-   "channels_latam": [],
-   "weight": "supermediano",
-   "belts": [],
-   "titleFight": false,
-   "importance": 45,
-   "card": [
-    {
-     "fight": "Steven Butler vs. Erik Bazinyan",
-     "title": false,
-     "rounds": 12,
-     "weight": "supermediano"
-    },
-    {
-     "fight": "Jhon Orobio vs. Hendri Cedeno",
-     "title": false,
-     "rounds": 10,
-     "weight": "superligero"
-    },
-    {
-     "fight": "Lenar Perez vs. TBA",
-     "title": false,
-     "rounds": 10,
-     "weight": "crucero"
-    },
-    {
-     "fight": "Avery Martin Duval vs. TBA",
-     "title": false,
-     "rounds": 10,
-     "weight": "ligero"
-    },
-    {
-     "fight": "Wyatt Sanford vs. TBA",
-     "title": false,
-     "rounds": 8,
-     "weight": "ligero"
-    },
-    {
-     "fight": "Keven Beausejour vs. TBA",
-     "title": false,
-     "rounds": 4,
-     "weight": "supermediano"
-    },
-    {
-     "fight": "Nickenson Denis vs. TBA",
-     "title": false,
-     "rounds": 4,
-     "weight": "supermediano"
-    }
-   ],
-   "source": "ESPN"
-  },
   {
    "date": "2026-11-14T00:00:00-04:00",
    "timeValid": false,
