@@ -1,14 +1,14 @@
 {
- "updated": "2026-11-14T02:27:31+00:00",
+ "updated": "2026-11-14T16:36:27+00:00",
  "sources": {
   "espn": {
    "ok": true,
    "count": 28,
    "http": 200,
-   "bytes": 10711,
+   "bytes": 10910,
    "schedule": true,
    "cards": 29,
-   "at": "2026-11-14T02:27:31+00:00"
+   "at": "2026-11-14T16:36:27+00:00"
   }
  },
  "fights": [
@@ -57,16 +57,28 @@
      "weight": "ligero"
     },
     {
-     "fight": "Jakhongir Zokirov vs. TBA",
+     "fight": "Rakhmatullo Boymatov vs. Moro Inusah Kanla",
      "title": false,
-     "rounds": 4,
+     "rounds": 8,
+     "weight": ""
+    },
+    {
+     "fight": "Jakhongir Zokirov vs. Brandon Colantonio",
+     "title": false,
+     "rounds": 6,
      "weight": "pesado"
     },
     {
-     "fight": "Tullo Boymatov vs. TBA",
+     "fight": "Rayan Awaji vs. Sudais Lubega",
      "title": false,
      "rounds": 4,
-     "weight": "semipesado"
+     "weight": "wélter"
+    },
+    {
+     "fight": "Abdullaziz Alotebi vs. Ezra Ssaili",
+     "title": false,
+     "rounds": 4,
+     "weight": "pluma"
     }
    ],
    "source": "ESPN"
@@ -111,13 +123,13 @@
      "weight": "pesado"
     },
     {
-     "fight": "Nishant Dev vs. TBA",
+     "fight": "Nishant Dev vs. Sona Akale",
      "title": false,
      "rounds": 8,
      "weight": "superwélter"
     },
     {
-     "fight": "Federico Pacheco Jr. vs. TBA",
+     "fight": "Federico Pacheco Jr. vs. Jack May",
      "title": false,
      "rounds": 8,
      "weight": "pesado"
