@@ -1,17 +1,83 @@
 {
- "updated": "2026-11-14T16:36:27+00:00",
+ "updated": "2026-11-15T01:56:59+00:00",
  "sources": {
   "espn": {
    "ok": true,
    "count": 28,
    "http": 200,
-   "bytes": 10910,
+   "bytes": 10568,
    "schedule": true,
    "cards": 29,
-   "at": "2026-11-14T16:36:27+00:00"
+   "at": "2026-11-15T01:56:59+00:00"
   }
  },
  "fights": [
+  {
+   "date": "2026-11-14T00:00:00-04:00",
+   "timeValid": false,
+   "title": "Diego Pacheco vs. Darius Fulghum",
+   "where": "Carson, California",
+   "channels": [
+    "TNT",
+    "DAZN"
+   ],
+   "channels_latam": [],
+   "weight": "supermediano",
+   "belts": [],
+   "titleFight": false,
+   "importance": 51,
+   "card": [
+    {
+     "fight": "Diego Pacheco vs. Darius Fulghum",
+     "title": false,
+     "rounds": 12,
+     "weight": "supermediano"
+    },
+    {
+     "fight": "Anthony Olascuaga vs. Yuberjen Martinez",
+     "title": true,
+     "rounds": 12,
+     "weight": "mosca"
+    },
+    {
+     "fight": "Charlie Sheehy vs. Gabriel Flores Jr.",
+     "title": false,
+     "rounds": 10,
+     "weight": "ligero"
+    },
+    {
+     "fight": "David Adeleye vs. Alexander Flores",
+     "title": false,
+     "rounds": 10,
+     "weight": "pesado"
+    },
+    {
+     "fight": "Zaquin Moses vs. Manuel Valentine Lerma",
+     "title": false,
+     "rounds": 8,
+     "weight": "superpluma"
+    },
+    {
+     "fight": "Nishant Dev vs. Sona Akale",
+     "title": false,
+     "rounds": 8,
+     "weight": "superwélter"
+    },
+    {
+     "fight": "Federico Pacheco Jr. vs. Jack May",
+     "title": false,
+     "rounds": 8,
+     "weight": "pesado"
+    },
+    {
+     "fight": "Frank Espinoza vs. Abisai Torres Diaz",
+     "title": false,
+     "rounds": 6,
+     "weight": "mediano"
+    }
+   ],
+   "source": "ESPN"
+  },
   {
    "date": "2026-11-14T00:00:00-04:00",
    "timeValid": false,
@@ -79,66 +145,6 @@
      "title": false,
      "rounds": 4,
      "weight": "pluma"
-    }
-   ],
-   "source": "ESPN"
-  },
-  {
-   "date": "2026-11-14T00:00:00-04:00",
-   "timeValid": false,
-   "title": "Diego Pacheco vs. Darius Fulghum",
-   "where": "Carson, California",
-   "channels": [
-    "TNT",
-    "DAZN"
-   ],
-   "channels_latam": [],
-   "weight": "supermediano",
-   "belts": [],
-   "titleFight": false,
-   "importance": 51,
-   "card": [
-    {
-     "fight": "Diego Pacheco vs. Darius Fulghum",
-     "title": false,
-     "rounds": 12,
-     "weight": "supermediano"
-    },
-    {
-     "fight": "Anthony Olascuaga vs. Yuberjen Martinez",
-     "title": true,
-     "rounds": 12,
-     "weight": "mosca"
-    },
-    {
-     "fight": "Charlie Sheehy vs. Gabriel Flores Jr.",
-     "title": false,
-     "rounds": 10,
-     "weight": "ligero"
-    },
-    {
-     "fight": "David Adeleye vs. Alexander Flores",
-     "title": false,
-     "rounds": 10,
-     "weight": "pesado"
-    },
-    {
-     "fight": "Nishant Dev vs. Sona Akale",
-     "title": false,
-     "rounds": 8,
-     "weight": "superwélter"
-    },
-    {
-     "fight": "Federico Pacheco Jr. vs. Jack May",
-     "title": false,
-     "rounds": 8,
-     "weight": "pesado"
-    },
-    {
-     "fight": "Frank Espinoza vs. Abisai Torres Diaz",
-     "title": false,
-     "rounds": 6,
-     "weight": "mediano"
     }
    ],
    "source": "ESPN"
@@ -394,7 +400,7 @@
    "date": "2026-11-27T00:00:00-04:00",
    "timeValid": false,
    "title": "Andy Cruz vs. Artur Subkhankulov",
-   "where": "Ufa, Rusia",
+   "where": "Ufa, Russia",
    "channels": [],
    "channels_latam": [],
    "weight": "ligero",
@@ -503,7 +509,7 @@
      "fight": "Francesca Hennessy vs. Johanna Wonyou",
      "title": false,
      "rounds": 10,
-     "weight": ""
+     "weight": "femenino gallo"
     },
     {
      "fight": "Elliot Whale vs. Bobby Faulkner",
@@ -516,6 +522,73 @@
      "title": false,
      "rounds": 6,
      "weight": "superwélter"
+    }
+   ],
+   "source": "ESPN"
+  },
+  {
+   "date": "2026-12-04T00:00:00-04:00",
+   "timeValid": false,
+   "title": "Aaron McKenna vs. Jevgenijs Aleksejevs",
+   "where": "Riyadh, Saudi Arabia",
+   "channels": [
+    "Paramount+"
+   ],
+   "channels_latam": [],
+   "weight": "mediano",
+   "belts": [
+    "IBF"
+   ],
+   "titleFight": true,
+   "importance": 69,
+   "card": [
+    {
+     "fight": "Aaron McKenna vs. Jevgenijs Aleksejevs",
+     "title": true,
+     "rounds": 12,
+     "weight": "mediano"
+    },
+    {
+     "fight": "Jack Massey vs. Andrew Tabiti",
+     "title": false,
+     "rounds": 10,
+     "weight": "crucero"
+    },
+    {
+     "fight": "Zak Chelli vs. Jesse Hart",
+     "title": false,
+     "rounds": 10,
+     "weight": "semipesado"
+    },
+    {
+     "fight": "Ryan Rozicki vs. Gaetan NTambwe",
+     "title": false,
+     "rounds": 10,
+     "weight": "crucero"
+    },
+    {
+     "fight": "Vladyslav Sirenko vs. Charles Martin",
+     "title": false,
+     "rounds": 10,
+     "weight": "pesado"
+    },
+    {
+     "fight": "Artjom Kasparian vs. Suray Mahmutovic",
+     "title": false,
+     "rounds": 8,
+     "weight": "semipesado"
+    },
+    {
+     "fight": "Jamar Talley vs. Sherif Musah",
+     "title": false,
+     "rounds": 8,
+     "weight": "crucero"
+    },
+    {
+     "fight": "Raheem Animashaun vs. TBA",
+     "title": false,
+     "rounds": 6,
+     "weight": "wélter"
     }
    ],
    "source": "ESPN"
@@ -568,6 +641,32 @@
      "title": false,
      "rounds": 8,
      "weight": "superwélter"
+    }
+   ],
+   "source": "ESPN"
+  },
+  {
+   "date": "2026-12-05T00:00:00-04:00",
+   "timeValid": false,
+   "title": "Litzy Vazquez vs. Stephanie Pineiro",
+   "where": "Bayamon, Puerto Rico",
+   "channels": [
+    "Wynn Records Network"
+   ],
+   "channels_latam": [],
+   "weight": "femenino superligero",
+   "belts": [
+    "WBA",
+    "WBC"
+   ],
+   "titleFight": true,
+   "importance": 75,
+   "card": [
+    {
+     "fight": "Litzy Vazquez vs. Stephanie Pineiro",
+     "title": true,
+     "rounds": 10,
+     "weight": "femenino superligero"
     }
    ],
    "source": "ESPN"
