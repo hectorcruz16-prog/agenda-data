@@ -1,14 +1,14 @@
 {
- "updated": "2026-11-17T04:29:39+00:00",
+ "updated": "2026-11-17T19:11:38+00:00",
  "sources": {
   "espn": {
    "ok": true,
    "count": 27,
    "http": 200,
-   "bytes": 9882,
+   "bytes": 11325,
    "schedule": true,
    "cards": 28,
-   "at": "2026-11-17T04:29:39+00:00"
+   "at": "2026-11-17T19:11:38+00:00"
   }
  },
  "fights": [
@@ -98,6 +98,30 @@
      "title": false,
      "rounds": 8,
      "weight": "mediano"
+    },
+    {
+     "fight": "Brandon Scott vs. Erick Omar Lopez",
+     "title": false,
+     "rounds": 6,
+     "weight": "pluma"
+    },
+    {
+     "fight": "Mikey O'Sullivan vs. Rogger Rivera",
+     "title": false,
+     "rounds": 4,
+     "weight": "superpluma"
+    },
+    {
+     "fight": "Joshua Mellor vs. Lewis Howells",
+     "title": false,
+     "rounds": 4,
+     "weight": "semipesado"
+    },
+    {
+     "fight": "Kane Shepherd vs. Jahfieus Faure",
+     "title": false,
+     "rounds": 6,
+     "weight": "ligero"
     }
    ],
    "source": "ESPN"
@@ -127,6 +151,72 @@
      "title": true,
      "rounds": 10,
      "weight": "femenino mosca"
+    },
+    {
+     "fight": "Ruslan Abdullaev vs. Juan Meza Angulo",
+     "title": false,
+     "rounds": 10,
+     "weight": "superligero"
+    },
+    {
+     "fight": "Manuel Flores vs. Rashib Antonio Martinez Valadez",
+     "title": false,
+     "rounds": 10,
+     "weight": "pluma"
+    },
+    {
+     "fight": "Demler Zamora vs. Ruben Garcia Hernandez",
+     "title": false,
+     "rounds": 10,
+     "weight": "superpluma"
+    },
+    {
+     "fight": "Leonardo Sanchez vs. Victor Morales",
+     "title": false,
+     "rounds": 8,
+     "weight": "superpluma"
+    },
+    {
+     "fight": "Amir Anderson vs. Daniel Buciuc",
+     "title": false,
+     "rounds": 8,
+     "weight": "mediano"
+    },
+    {
+     "fight": "Joel Iriarte vs. Darvin Galeano",
+     "title": false,
+     "rounds": 8,
+     "weight": "wélter"
+    },
+    {
+     "fight": "Cayden Griffiths vs. Jean Rivera-Pacheco",
+     "title": false,
+     "rounds": 8,
+     "weight": "superwélter"
+    },
+    {
+     "fight": "David Lopez vs. Alan Edgar Ayala Crisosto",
+     "title": false,
+     "rounds": 6,
+     "weight": "wélter"
+    },
+    {
+     "fight": "Sebastian Mitry vs. Anthony Alvarado",
+     "title": false,
+     "rounds": 6,
+     "weight": "mediano"
+    },
+    {
+     "fight": "Javier Meza vs. Jonathan Figueroa",
+     "title": false,
+     "rounds": 6,
+     "weight": "superligero"
+    },
+    {
+     "fight": "Kayla Gomez vs. Gloria Carolina Fernandez Quinonez",
+     "title": false,
+     "rounds": 4,
+     "weight": "femenino supermosca"
     }
    ],
    "source": "ESPN"
@@ -868,13 +958,37 @@
     "WBO"
    ],
    "titleFight": true,
-   "importance": 97,
+   "importance": 100,
    "card": [
     {
      "fight": "Amanda Serrano vs. Skye Falzon",
      "title": true,
      "rounds": 12,
      "weight": "femenino pluma"
+    },
+    {
+     "fight": "Oscar Collazo vs. Joey Canoy",
+     "title": true,
+     "rounds": 12,
+     "weight": "mínimo"
+    },
+    {
+     "fight": "Jan Paul Rivera vs. TBA",
+     "title": false,
+     "rounds": 10,
+     "weight": "pluma"
+    },
+    {
+     "fight": "Shurretta Metcalf vs. Krystal Rosado",
+     "title": false,
+     "rounds": 8,
+     "weight": "gallo"
+    },
+    {
+     "fight": "Juanmita Lopez vs. TBA",
+     "title": false,
+     "rounds": 8,
+     "weight": "supermosca"
     }
    ],
    "source": "ESPN"
