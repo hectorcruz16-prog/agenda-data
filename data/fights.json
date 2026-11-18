@@ -1,14 +1,14 @@
 {
- "updated": "2026-11-18T03:43:03+00:00",
+ "updated": "2026-11-18T18:52:21+00:00",
  "sources": {
   "espn": {
    "ok": true,
-   "count": 27,
+   "count": 28,
    "http": 200,
-   "bytes": 11325,
+   "bytes": 11901,
    "schedule": true,
-   "cards": 28,
-   "at": "2026-11-18T03:43:03+00:00"
+   "cards": 29,
+   "at": "2026-11-18T18:52:21+00:00"
   }
  },
  "fights": [
@@ -70,7 +70,8 @@
    "belts": [
     "IBF",
     "WBA",
-    "WBC"
+    "WBC",
+    "WBO"
    ],
    "titleFight": true,
    "importance": 75,
@@ -481,6 +482,12 @@
      "weight": "crucero"
     },
     {
+     "fight": "Alex MacMillan vs. TBA",
+     "title": false,
+     "rounds": 6,
+     "weight": "wélter"
+    },
+    {
      "fight": "Raheem Animashaun vs. TBA",
      "title": false,
      "rounds": 6,
@@ -521,22 +528,34 @@
      "weight": "mediano"
     },
     {
-     "fight": "Emiliano Vargas vs. TBA",
+     "fight": "Emiliano Vargas vs. Omar Juarez",
      "title": false,
      "rounds": 10,
      "weight": "superligero"
     },
     {
-     "fight": "Marco Romero vs. TBA",
+     "fight": "Nikita Tszyu vs. Robert Valenzuela Jr.",
+     "title": false,
+     "rounds": 8,
+     "weight": "superwélter"
+    },
+    {
+     "fight": "Marco Romero vs. Cruse Stewart",
      "title": false,
      "rounds": 8,
      "weight": "mediano"
     },
     {
-     "fight": "Nikita Tszyu vs. TBA",
+     "fight": "Elijah Garcia vs. Thomas O'Toole",
      "title": false,
-     "rounds": 8,
-     "weight": "superwélter"
+     "rounds": 10,
+     "weight": "supermediano"
+    },
+    {
+     "fight": "Luis Nuñez vs. Toshiki Shimomachi",
+     "title": false,
+     "rounds": 12,
+     "weight": "pluma"
     }
    ],
    "source": "ESPN"
@@ -1014,6 +1033,43 @@
      "title": false,
      "rounds": 12,
      "weight": "superpluma"
+    }
+   ],
+   "source": "ESPN"
+  },
+  {
+   "date": "2027-01-11T00:00:00-04:00",
+   "timeValid": false,
+   "title": "Shokichi Iwata vs. Rene Santiago",
+   "where": "Tokyo",
+   "channels": [],
+   "channels_latam": [],
+   "weight": "superpluma",
+   "belts": [
+    "WBA",
+    "WBC",
+    "WBO"
+   ],
+   "titleFight": true,
+   "importance": 75,
+   "card": [
+    {
+     "fight": "Shokichi Iwata vs. Rene Santiago",
+     "title": true,
+     "rounds": 12,
+     "weight": "superpluma"
+    },
+    {
+     "fight": "Mikito Nakano vs. Cristobal Lorente",
+     "title": false,
+     "rounds": 10,
+     "weight": "pluma"
+    },
+    {
+     "fight": "Tenshin Nasukawa vs. Antonio Vargas",
+     "title": false,
+     "rounds": 10,
+     "weight": "gallo"
     }
    ],
    "source": "ESPN"
