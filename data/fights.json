@@ -1,14 +1,14 @@
 {
- "updated": "2026-11-19T03:30:27+00:00",
+ "updated": "2026-11-19T18:59:49+00:00",
  "sources": {
   "espn": {
    "ok": true,
    "count": 28,
    "http": 200,
-   "bytes": 11901,
+   "bytes": 11487,
    "schedule": true,
-   "cards": 29,
-   "at": "2026-11-19T03:30:27+00:00"
+   "cards": 28,
+   "at": "2026-11-19T18:59:49+00:00"
   }
  },
  "fights": [
@@ -1143,6 +1143,34 @@
      "title": true,
      "rounds": 10,
      "weight": "femenino ligero"
+    }
+   ],
+   "source": "ESPN"
+  },
+  {
+   "date": "2027-02-27T00:00:00-04:00",
+   "timeValid": false,
+   "title": "Jaron Ennis vs. Josh Kelly",
+   "where": "Atlanta, Georgia",
+   "channels": [
+    "TNT",
+    "DAZN"
+   ],
+   "channels_latam": [],
+   "weight": "superwélter",
+   "belts": [
+    "IBF",
+    "WBA",
+    "WBO"
+   ],
+   "titleFight": true,
+   "importance": 75,
+   "card": [
+    {
+     "fight": "Jaron Ennis vs. Josh Kelly",
+     "title": true,
+     "rounds": 12,
+     "weight": "superwélter"
     }
    ],
    "source": "ESPN"
