@@ -1,14 +1,14 @@
 {
- "updated": "2026-11-20T03:18:04+00:00",
+ "updated": "2026-11-20T18:37:33+00:00",
  "sources": {
   "espn": {
    "ok": true,
    "count": 28,
    "http": 200,
-   "bytes": 12648,
+   "bytes": 12637,
    "schedule": true,
    "cards": 28,
-   "at": "2026-11-20T03:18:04+00:00"
+   "at": "2026-11-20T18:37:33+00:00"
   }
  },
  "fights": [
@@ -559,7 +559,7 @@
      "weight": "crucero"
     },
     {
-     "fight": "Vergil Ortiz Jr. vs. Keith Thurman",
+     "fight": "Vergil Ortiz Jr. vs. TBA",
      "title": false,
      "rounds": 12,
      "weight": "mediano"
