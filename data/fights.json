@@ -1,64 +1,17 @@
 {
- "updated": "2026-11-19T18:59:49+00:00",
+ "updated": "2026-11-20T03:18:04+00:00",
  "sources": {
   "espn": {
    "ok": true,
    "count": 28,
    "http": 200,
-   "bytes": 11487,
+   "bytes": 12648,
    "schedule": true,
    "cards": 28,
-   "at": "2026-11-19T18:59:49+00:00"
+   "at": "2026-11-20T03:18:04+00:00"
   }
  },
  "fights": [
-  {
-   "date": "2026-11-18T00:00:00-04:00",
-   "timeValid": false,
-   "title": "Teremoana Teremoana vs. Hemi Ahio",
-   "where": "Melbourne, Australia",
-   "channels": [
-    "DAZN"
-   ],
-   "channels_latam": [],
-   "weight": "pesado",
-   "belts": [],
-   "titleFight": false,
-   "importance": 45,
-   "card": [
-    {
-     "fight": "Teremoana Teremoana vs. Hemi Ahio",
-     "title": false,
-     "rounds": 10,
-     "weight": "pesado"
-    },
-    {
-     "fight": "Joel Camilleri vs. Mitchell Leek",
-     "title": false,
-     "rounds": 10,
-     "weight": "mediano"
-    },
-    {
-     "fight": "Ky Hodgson vs. Victor Adis-Iosifidis",
-     "title": false,
-     "rounds": 10,
-     "weight": "superwélter"
-    },
-    {
-     "fight": "Omar El-Abdallah vs. Nicholas Benn",
-     "title": false,
-     "rounds": 8,
-     "weight": "supermediano"
-    },
-    {
-     "fight": "James Noonan vs. Matt Faron",
-     "title": false,
-     "rounds": 4,
-     "weight": "mediano"
-    }
-   ],
-   "source": "ESPN"
-  },
   {
    "date": "2026-11-20T00:00:00-04:00",
    "timeValid": false,
@@ -260,6 +213,12 @@
      "title": false,
      "rounds": 8,
      "weight": "femenino mínimo"
+    },
+    {
+     "fight": "Oier Ibarreche vs. Ricardo Carpio",
+     "title": false,
+     "rounds": 6,
+     "weight": "superligero"
     }
    ],
    "source": "ESPN"
@@ -289,6 +248,36 @@
      "title": false,
      "rounds": 8,
      "weight": "supergallo"
+    },
+    {
+     "fight": "Takeshi Ishii vs. Zyvyr John Medecilo",
+     "title": false,
+     "rounds": 12,
+     "weight": "mínimo"
+    },
+    {
+     "fight": "Madoka Wada vs. Watcharaporn Namphon",
+     "title": false,
+     "rounds": 10,
+     "weight": ""
+    },
+    {
+     "fight": "Seiya Nakayama vs. Vencent Lacar",
+     "title": false,
+     "rounds": 8,
+     "weight": "supermosca"
+    },
+    {
+     "fight": "Masanori Rikiishi vs. Melchor Roda",
+     "title": false,
+     "rounds": 8,
+     "weight": "superpluma"
+    },
+    {
+     "fight": "Yuga Fujiki vs. Ronerick Ballesteros",
+     "title": false,
+     "rounds": 8,
+     "weight": "ligero"
     }
    ],
    "source": "ESPN"
@@ -312,6 +301,42 @@
      "title": true,
      "rounds": 12,
      "weight": "ligero"
+    },
+    {
+     "fight": "Aznaur Kalsynov vs. David Santisima",
+     "title": false,
+     "rounds": 10,
+     "weight": ""
+    },
+    {
+     "fight": "Vadim Musaev vs. Nurtas Azhbenov",
+     "title": false,
+     "rounds": 10,
+     "weight": "wélter"
+    },
+    {
+     "fight": "Mikhail Grigoryan vs. TBA",
+     "title": false,
+     "rounds": 10,
+     "weight": "ligero"
+    },
+    {
+     "fight": "Danis Gabdrafikov vs. Brad Morgan",
+     "title": false,
+     "rounds": 8,
+     "weight": "wélter"
+    },
+    {
+     "fight": "Azalia Amineva vs. Nozipho Bell",
+     "title": false,
+     "rounds": 8,
+     "weight": "femenino superligero"
+    },
+    {
+     "fight": "Rasul Magomedov vs. Arnaldo Vega",
+     "title": false,
+     "rounds": 6,
+     "weight": "superligero"
     }
    ],
    "source": "ESPN"
@@ -372,6 +397,18 @@
      "title": true,
      "rounds": 12,
      "weight": "supermosca"
+    },
+    {
+     "fight": "Diego Aviles vs. April Jay Abne",
+     "title": false,
+     "rounds": 6,
+     "weight": "minimosca"
+    },
+    {
+     "fight": "Masahide Hiraoka vs. Takeru Higuchi",
+     "title": false,
+     "rounds": 4,
+     "weight": "ligero"
     }
    ],
    "source": "ESPN"
@@ -575,13 +612,25 @@
     "WBC"
    ],
    "titleFight": true,
-   "importance": 75,
+   "importance": 83,
    "card": [
     {
      "fight": "Litzy Vazquez vs. Stephanie Pineiro",
      "title": true,
      "rounds": 10,
      "weight": "femenino superligero"
+    },
+    {
+     "fight": "Joshua Pagan vs. Orlando Gonzalez",
+     "title": false,
+     "rounds": 10,
+     "weight": "ligero"
+    },
+    {
+     "fight": "Ashleyann Lozada vs. Veronica Tosi",
+     "title": false,
+     "rounds": 10,
+     "weight": "femenino supergallo"
     }
    ],
    "source": "ESPN"
