@@ -1,85 +1,17 @@
 {
- "updated": "2026-11-20T18:37:33+00:00",
+ "updated": "2026-11-21T03:13:56+00:00",
  "sources": {
   "espn": {
    "ok": true,
-   "count": 28,
+   "count": 27,
    "http": 200,
-   "bytes": 12637,
+   "bytes": 11915,
    "schedule": true,
-   "cards": 28,
-   "at": "2026-11-20T18:37:33+00:00"
+   "cards": 27,
+   "at": "2026-11-21T03:13:56+00:00"
   }
  },
  "fights": [
-  {
-   "date": "2026-11-20T00:00:00-04:00",
-   "timeValid": false,
-   "title": "Lauren Price vs. Michaela Kotaskova",
-   "where": "Cardiff, Wales",
-   "channels": [],
-   "channels_latam": [],
-   "weight": "femenino wélter",
-   "belts": [
-    "IBF",
-    "WBA",
-    "WBC",
-    "WBO"
-   ],
-   "titleFight": true,
-   "importance": 75,
-   "card": [
-    {
-     "fight": "Lauren Price vs. Michaela Kotaskova",
-     "title": true,
-     "rounds": 10,
-     "weight": "femenino wélter"
-    },
-    {
-     "fight": "Willy Gilheaney vs. Alberto Ignacio Palmetta",
-     "title": false,
-     "rounds": 10,
-     "weight": "wélter"
-    },
-    {
-     "fight": "Rhys Edwards vs. Lee McGregor",
-     "title": false,
-     "rounds": 10,
-     "weight": "pluma"
-    },
-    {
-     "fight": "Sean Arkwright vs. Jake Goodwin",
-     "title": false,
-     "rounds": 8,
-     "weight": "mediano"
-    },
-    {
-     "fight": "Brandon Scott vs. Erick Omar Lopez",
-     "title": false,
-     "rounds": 6,
-     "weight": "pluma"
-    },
-    {
-     "fight": "Mikey O'Sullivan vs. Rogger Rivera",
-     "title": false,
-     "rounds": 4,
-     "weight": "superpluma"
-    },
-    {
-     "fight": "Joshua Mellor vs. Lewis Howells",
-     "title": false,
-     "rounds": 4,
-     "weight": "semipesado"
-    },
-    {
-     "fight": "Kane Shepherd vs. Jahfieus Faure",
-     "title": false,
-     "rounds": 6,
-     "weight": "ligero"
-    }
-   ],
-   "source": "ESPN"
-  },
   {
    "date": "2026-11-20T00:00:00-04:00",
    "timeValid": false,
@@ -171,6 +103,74 @@
      "title": false,
      "rounds": 4,
      "weight": "femenino supermosca"
+    }
+   ],
+   "source": "ESPN"
+  },
+  {
+   "date": "2026-11-20T00:00:00-04:00",
+   "timeValid": false,
+   "title": "Lauren Price vs. Michaela Kotaskova",
+   "where": "Cardiff, Wales",
+   "channels": [],
+   "channels_latam": [],
+   "weight": "femenino wélter",
+   "belts": [
+    "IBF",
+    "WBA",
+    "WBC",
+    "WBO"
+   ],
+   "titleFight": true,
+   "importance": 75,
+   "card": [
+    {
+     "fight": "Lauren Price vs. Michaela Kotaskova",
+     "title": true,
+     "rounds": 10,
+     "weight": "femenino wélter"
+    },
+    {
+     "fight": "Willy Gilheaney vs. Alberto Ignacio Palmetta",
+     "title": false,
+     "rounds": 10,
+     "weight": "wélter"
+    },
+    {
+     "fight": "Rhys Edwards vs. Lee McGregor",
+     "title": false,
+     "rounds": 10,
+     "weight": "pluma"
+    },
+    {
+     "fight": "Sean Arkwright vs. Jake Goodwin",
+     "title": false,
+     "rounds": 8,
+     "weight": "mediano"
+    },
+    {
+     "fight": "Brandon Scott vs. Erick Omar Lopez",
+     "title": false,
+     "rounds": 6,
+     "weight": "pluma"
+    },
+    {
+     "fight": "Mikey O'Sullivan vs. Rogger Rivera",
+     "title": false,
+     "rounds": 4,
+     "weight": "superpluma"
+    },
+    {
+     "fight": "Joshua Mellor vs. Lewis Howells",
+     "title": false,
+     "rounds": 4,
+     "weight": "semipesado"
+    },
+    {
+     "fight": "Kane Shepherd vs. Jahfieus Faure",
+     "title": false,
+     "rounds": 6,
+     "weight": "ligero"
     }
    ],
    "source": "ESPN"
