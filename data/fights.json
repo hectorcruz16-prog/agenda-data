@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T17:51:04+00:00",
+ "updated": "2026-11-23T02:47:08+00:00",
  "sources": {
   "espn": {
    "ok": true,
@@ -8,58 +8,10 @@
    "bytes": 11146,
    "schedule": true,
    "cards": 25,
-   "at": "2026-11-22T17:51:04+00:00"
+   "at": "2026-11-23T02:47:08+00:00"
   }
  },
  "fights": [
-  {
-   "date": "2026-11-21T00:00:00-04:00",
-   "timeValid": false,
-   "title": "Isabel Rivero vs. Sumire Yamanaka",
-   "where": "Illescas, Spain",
-   "channels": [],
-   "channels_latam": [],
-   "weight": "",
-   "belts": [
-    "IBF",
-    "WBA"
-   ],
-   "titleFight": true,
-   "importance": 75,
-   "card": [
-    {
-     "fight": "Isabel Rivero vs. Sumire Yamanaka",
-     "title": true,
-     "rounds": 10,
-     "weight": ""
-    },
-    {
-     "fight": "Jose Gabriel Carfunjol vs. Bernard Angelo Torres",
-     "title": false,
-     "rounds": 10,
-     "weight": "ligero"
-    },
-    {
-     "fight": "Sheila Martinez vs. Mayerlin Rivas",
-     "title": false,
-     "rounds": 10,
-     "weight": "femenino pluma"
-    },
-    {
-     "fight": "Cintia Sanchez vs. TBA",
-     "title": false,
-     "rounds": 8,
-     "weight": "femenino mínimo"
-    },
-    {
-     "fight": "Oier Ibarreche vs. Ricardo Carpio",
-     "title": false,
-     "rounds": 6,
-     "weight": "superligero"
-    }
-   ],
-   "source": "ESPN"
-  },
   {
    "date": "2026-11-26T00:00:00-04:00",
    "timeValid": false,
