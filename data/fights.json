@@ -1,14 +1,14 @@
 {
- "updated": "2026-11-23T02:47:08+00:00",
+ "updated": "2026-11-23T22:03:27+00:00",
  "sources": {
   "espn": {
    "ok": true,
    "count": 25,
    "http": 200,
-   "bytes": 11146,
+   "bytes": 11148,
    "schedule": true,
    "cards": 25,
-   "at": "2026-11-23T02:47:08+00:00"
+   "at": "2026-11-23T22:03:27+00:00"
   }
  },
  "fights": [
@@ -470,13 +470,13 @@
      "weight": "pesado"
     },
     {
-     "fight": "Deontay Wilder vs. Jai Opetaia",
+     "fight": "Deontay Wilder vs. Martin Bakole",
      "title": false,
-     "rounds": 12,
+     "rounds": 10,
      "weight": "pesado"
     },
     {
-     "fight": "Martin Bakole vs. Solomon Adebayo",
+     "fight": "Moses Jolly vs. Igor Adiel Macedo",
      "title": false,
      "rounds": 10,
      "weight": "pesado"
