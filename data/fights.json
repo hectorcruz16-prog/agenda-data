@@ -1,14 +1,14 @@
 {
- "updated": "2026-11-25T19:56:53+00:00",
+ "updated": "2026-11-26T04:10:06+00:00",
  "sources": {
   "espn": {
    "ok": true,
-   "count": 25,
+   "count": 26,
    "http": 200,
-   "bytes": 11148,
+   "bytes": 11905,
    "schedule": true,
-   "cards": 25,
-   "at": "2026-11-25T19:56:53+00:00"
+   "cards": 26,
+   "at": "2026-11-26T04:10:06+00:00"
   }
  },
  "fights": [
@@ -348,7 +348,7 @@
      "weight": "crucero"
     },
     {
-     "fight": "Vergil Ortiz Jr. vs. TBA",
+     "fight": "Vergil Ortiz Jr. vs. Brian Mendoza",
      "title": false,
      "rounds": 12,
      "weight": "mediano"
@@ -378,7 +378,7 @@
      "weight": "supermediano"
     },
     {
-     "fight": "Luis Nuñez vs. Toshiki Shimomachi",
+     "fight": "Luis Nunez vs. Toshiki Shimomachi",
      "title": false,
      "rounds": 12,
      "weight": "pluma"
@@ -954,6 +954,31 @@
      "title": true,
      "rounds": 12,
      "weight": "supermediano"
+    }
+   ],
+   "source": "ESPN"
+  },
+  {
+   "date": "2027-01-30T00:00:00-04:00",
+   "timeValid": false,
+   "title": "Daniel Dubois vs. Joseph Parker",
+   "where": "Manchester, England",
+   "channels": [
+    "DAZN"
+   ],
+   "channels_latam": [],
+   "weight": "pesado",
+   "belts": [
+    "WBO"
+   ],
+   "titleFight": true,
+   "importance": 91,
+   "card": [
+    {
+     "fight": "Daniel Dubois vs. Joseph Parker",
+     "title": true,
+     "rounds": 12,
+     "weight": "pesado"
     }
    ],
    "source": "ESPN"
