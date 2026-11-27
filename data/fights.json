@@ -1,14 +1,14 @@
 {
- "updated": "2026-11-27T04:15:49+00:00",
+ "updated": "2026-11-27T19:28:57+00:00",
  "sources": {
   "espn": {
    "ok": true,
    "count": 25,
    "http": 200,
-   "bytes": 11306,
+   "bytes": 12252,
    "schedule": true,
    "cards": 25,
-   "at": "2026-11-27T04:15:49+00:00"
+   "at": "2026-11-27T19:28:57+00:00"
   }
  },
  "fights": [
@@ -443,6 +443,83 @@
      "title": false,
      "rounds": 10,
      "weight": "wélter"
+    }
+   ],
+   "source": "ESPN"
+  },
+  {
+   "date": "2026-12-10T00:00:00-04:00",
+   "timeValid": false,
+   "title": "Jeamie Tshikeva vs. Justis Huni",
+   "where": "Cardiff, Wales",
+   "channels": [
+    "DAZN"
+   ],
+   "channels_latam": [],
+   "weight": "pesado",
+   "belts": [],
+   "titleFight": false,
+   "importance": 53,
+   "card": [
+    {
+     "fight": "Jeamie Tshikeva vs. Justis Huni",
+     "title": false,
+     "rounds": 12,
+     "weight": "pesado"
+    },
+    {
+     "fight": "Sam Gilley vs. Brad Pauls",
+     "title": false,
+     "rounds": 10,
+     "weight": "mediano"
+    },
+    {
+     "fight": "Simon Ibekwe vs. Tom Schwarz",
+     "title": false,
+     "rounds": 8,
+     "weight": "pesado"
+    },
+    {
+     "fight": "Garan Croft vs. Harley Collison",
+     "title": false,
+     "rounds": 8,
+     "weight": "mediano"
+    },
+    {
+     "fight": "Ioan Croft vs. Dmitri Protkunas",
+     "title": false,
+     "rounds": 8,
+     "weight": "supermediano"
+    },
+    {
+     "fight": "Arlo Stephens vs. Lamah Griggs",
+     "title": false,
+     "rounds": 6,
+     "weight": "pesado"
+    },
+    {
+     "fight": "Ellis Panter vs. Christian Lopez Flores",
+     "title": false,
+     "rounds": 4,
+     "weight": "wélter"
+    },
+    {
+     "fight": "Juan David Cuervo vs. Ezequiel Gregores",
+     "title": false,
+     "rounds": 4,
+     "weight": "wélter"
+    },
+    {
+     "fight": "Ryan Jones vs. Cesar Ignacio Paredes",
+     "title": false,
+     "rounds": 4,
+     "weight": "ligero"
+    },
+    {
+     "fight": "Isa Akram vs. Jorge Luis Huerta Balleza",
+     "title": false,
+     "rounds": 4,
+     "weight": "superpluma"
     }
    ],
    "source": "ESPN"
