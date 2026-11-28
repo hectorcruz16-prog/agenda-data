@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T19:28:57+00:00",
+ "updated": "2026-11-28T03:54:36+00:00",
  "sources": {
   "espn": {
    "ok": true,
@@ -8,69 +8,10 @@
    "bytes": 12252,
    "schedule": true,
    "cards": 25,
-   "at": "2026-11-27T19:28:57+00:00"
+   "at": "2026-11-28T03:54:36+00:00"
   }
  },
  "fights": [
-  {
-   "date": "2026-11-26T00:00:00-04:00",
-   "timeValid": false,
-   "title": "Masamichi Yabuki vs. Miel Fajardo",
-   "where": "Tokyo, Japan",
-   "channels": [],
-   "channels_latam": [],
-   "weight": "mosca",
-   "belts": [
-    "IBF"
-   ],
-   "titleFight": true,
-   "importance": 69,
-   "card": [
-    {
-     "fight": "Masamichi Yabuki vs. Miel Fajardo",
-     "title": true,
-     "rounds": 12,
-     "weight": "mosca"
-    },
-    {
-     "fight": "Yoshiki Takei vs. Kenshin Oshima",
-     "title": false,
-     "rounds": 8,
-     "weight": "supergallo"
-    },
-    {
-     "fight": "Takeshi Ishii vs. Zyvyr John Medecilo",
-     "title": false,
-     "rounds": 12,
-     "weight": "mínimo"
-    },
-    {
-     "fight": "Madoka Wada vs. Watcharaporn Namphon",
-     "title": false,
-     "rounds": 10,
-     "weight": ""
-    },
-    {
-     "fight": "Seiya Nakayama vs. Vencent Lacar",
-     "title": false,
-     "rounds": 8,
-     "weight": "supermosca"
-    },
-    {
-     "fight": "Masanori Rikiishi vs. Melchor Roda",
-     "title": false,
-     "rounds": 8,
-     "weight": "superpluma"
-    },
-    {
-     "fight": "Yuga Fujiki vs. Ronerick Ballesteros",
-     "title": false,
-     "rounds": 8,
-     "weight": "ligero"
-    }
-   ],
-   "source": "ESPN"
-  },
   {
    "date": "2026-11-27T00:00:00-04:00",
    "timeValid": false,
